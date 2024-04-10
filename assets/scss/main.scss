@@ -1,0 +1,19 @@
+/*=============== IMPORT BASE ===============*/
+@import "./base/base.scss";
+
+/*=============== IMPORT COMPONENTS ===============*/
+@import "./components/mainbutton.scss";
+
+/*=============== IMPORT LAYOUT ===============*/
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
+
+/*=============== IMPORT PAGES ===============*/
+
+
+/*=============== IMPORT THEME ===============*/
+@import "./theme/prefers-color-scheme.scss";
+
+/*=============== IMPORT UTILS ===============*/
+@import "./utils/mixins.scss";
+@import "./utils/variables.scss";

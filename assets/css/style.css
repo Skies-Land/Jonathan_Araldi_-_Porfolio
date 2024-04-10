@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/*=============== IMPORT BASE ===============*/
+/*=============== VARIABLES ===============*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== GOOGLE FONTS ===============*/
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Syne", sans-serif;
+  font-size: 0.938rem;
+  background-color: hsl(0, 0%, 87%);
+  color: hsl(0, 0%, 35%);
+  transition: background-color 0.4s; /* Pour le Dark theme */
+}
+
+h1, h2, h3, h4 {
+  color: hsl(0, 0%, 0%);
+  font-weight: 700;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/*=============== THEME ===============*/
+.nav__buttons {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1120px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.section {
+  padding-block: 4rem 2rem;
+}
+
+.section__title-1,
+.section__title-2 {
+  position: relative;
+  font-size: 1.5rem;
+  width: max-content;
+  margin: 0.75rem auto 2rem;
+}
+
+.section__title-1 span,
+.section__title-2 span {
+  z-index: 5;
+  position: relative;
+}
+
+.section__title-1::after,
+.section__title-2::after {
+  content: "";
+  width: 40px;
+  height: 28px;
+  background-color: hsla(14, 98%, 50%, 0.2);
+  position: absolute;
+  top: -4px;
+  right: -8px;
+}
+
+.section__title-2::after {
+  top: initial;
+  bottom: -4px;
+}
+
+.geometric-box {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: hsl(14, 98%, 50%);
+  rotate: -30deg;
+}
+
+.geometric-box::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border: 3px solid hsl(0, 0%, 0%);
+  left: -5px;
+  top: -5px;
+}
+
+.main {
+  overflow: hidden; /* For animation ScrollReveal */
+}
+
+/*=============== IMPORT COMPONENTS ===============*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*=============== BUTTON ===============*/
+/*=============== IMPORT LAYOUT ===============*/
+/*=============== VARIABLES ===============*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== FOOTER ===============*/
+/*=============== VARIABLES ===============*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== HEADER & NAV ===============*/
+/*=============== IMPORT PAGES ===============*/
+/*=============== IMPORT THEME ===============*/
+/*========== ☀️ LIGHT MOD ☀️ ==========*/
+/*========== 🌙 DARK MOD 🌙 ==========*/
+/*=============== IMPORT UTILS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+
+/*# sourceMappingURL=style.css.map */
