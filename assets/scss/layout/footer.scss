@@ -64,6 +64,12 @@
     color: $first-color;
 }
 
+.footer__copy {
+    color: $text-color-light;
+    font-size: $small-font-size;
+
+}
+
 .footer__copy a {
     font-size: $small-font-size;
     font-weight: $font-medium;
