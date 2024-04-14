@@ -64,9 +64,10 @@
     color: $first-color;
 }
 
-.footer__copy {
+.footer__copy a {
     font-size: $small-font-size;
     font-weight: $font-medium;
+    color: $first-color;
 }
 
 /*=============== MEDIA QUERIES ===============*/

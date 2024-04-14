@@ -315,9 +315,10 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
   color: hsl(14, 98%, 50%);
 }
 
-.footer__copy {
+.footer__copy a {
   font-size: 0.813rem;
   font-weight: 500;
+  color: hsl(14, 98%, 50%);
 }
 
 /*=============== MEDIA QUERIES ===============*/
