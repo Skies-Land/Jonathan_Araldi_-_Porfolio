@@ -11,7 +11,7 @@
     top: 0;
     left: 0;
     background-color: $body-color;
-    z-index: z-fixed;
+    z-index: $z-fixed;
     transition: box-shadow 0.4s, background-color 0.4s;
 }
 
@@ -110,7 +110,7 @@
 .nav__link {
     position: relative;
     color: $text-color-light;
-    font-size: h3-font-size;
+    font-size: $h3-font-size;
     font-weight: $font-semi-bold;
     transition: color 0.3s;
 }
