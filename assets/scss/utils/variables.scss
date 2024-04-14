@@ -32,9 +32,9 @@
 /*========== Font and typography ==========*/
     $body-font: "Syne", sans-serif;
     $biggest-font-size: 2.5rem;
-    $h1-font-size: 1.5rem;
+    $h1-font-size: 1.75rem;
     $h2-font-size: 1.25rem;
-    $h3-font-size: 1rem;
+    $h3-font-size: 1.125rem;
     $normal-font-size: 0.938rem;
     $small-font-size: 0.813rem;
     $smaller-font-size: 0.75rem;
@@ -53,10 +53,10 @@
 /*========== Responsive typography ==========*/
     @include small-desktop {
         $biggest-font-size: 4.5rem;
-        $h1-font-size: 2.25rem;
+        $h1-font-size: 3rem;
         $h2-font-size: 1.5rem;
         $h3-font-size: 1.25rem;
-        $normal-font-size: 1.125rem;
+        $normal-font-size: 1rem;
         $small-font-size: 0.875rem;
         $smaller-font-size: 0.813rem;
     }

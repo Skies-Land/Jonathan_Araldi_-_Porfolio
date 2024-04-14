@@ -2,7 +2,7 @@
 @import "./base/base.scss";
 
 /*=============== IMPORT COMPONENTS ===============*/
-@import "./components/home.scss";
+
 @import "./components/mainbutton.scss";
 
 /*=============== IMPORT LAYOUT ===============*/
@@ -10,7 +10,8 @@
 @import "./layout/header.scss";
 
 /*=============== IMPORT PAGES ===============*/
-
+@import "./pages/home.scss";
+@import "./pages/about.scss";
 
 /*=============== IMPORT THEME ===============*/
 @import "./theme/prefers-color-scheme.scss";
