@@ -2,8 +2,10 @@
 @import "./base/base.scss";
 
 /*=============== IMPORT COMPONENTS ===============*/
+@import "./components/button-service.scss";
 @import "./components/faq.scss";
 @import "./components/mainbutton.scss";
+@import "./components/services.scss";
 
 /*=============== IMPORT LAYOUT ===============*/
 @import "./layout/footer.scss";

@@ -26,6 +26,13 @@ body {
     transition: background-color .4s; /* Pour le Dark theme */
 }
 
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+
 h1, h2, h3, h4 {
     color: $title-color;
     font-weight: $font-bold;
@@ -77,7 +84,6 @@ img {
 
 .section__title-1 span,
 .section__title-2 span {
-    z-index: 5;
     position: relative;
 }
 
