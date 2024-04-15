@@ -522,6 +522,69 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
     right: 1.25rem;
   }
 }
+/*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 65%);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.5rem;
+  background-color: hsl(0, 0%, 55%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(0, 0%, 45%);
+}
+
+/*=============== VARIABLES ===============*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -50%;
+  background-color: hsl(0, 0%, 0%);
+  display: inline-flex;
+  padding: 8px;
+  font-size: 1.25rem;
+  color: hsl(0, 0%, 95%);
+  z-index: 10;
+  transition: bottom 0.4s, transform 0.4s, background-color 0.4s;
+  border-radius: 50%;
+}
+
+.scrollup:hover {
+  transform: translateY(-0.5rem);
+}
+
+/* Show Scroll Up */
+.show-scroll {
+  bottom: 3rem;
+}
+
 /*=============== VARIABLES ===============*/
 /*=============== MIXINS ===============*/
 /*========== Media Queries ==========*/

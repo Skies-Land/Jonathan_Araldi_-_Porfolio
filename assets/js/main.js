@@ -89,3 +89,39 @@ document.addEventListener('keydown', (e) => {
         })
     }
 })
+
+/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+const sections = document.querySelectorAll('section[id]')
+
+/** FONCTIONNEMENT SCROLL SECTIONS ACTIVE LINK
+ * Ajoute ou supprime la classe 'active-link' aux éléments de la barre de navigation en fonction de la position de défilement de la fenêtre.
+ * Lorsque la position de défilement de la fenêtre est entre le haut de la section et le bas de la section (hauteur de la section),
+ * la classe 'active-link' est ajoutée à l'élément de navigation correspondant.
+ * Sinon, la classe 'active-link' est supprimée.
+ */
+const scrollActive = () =>{
+    const scrollDown = window.scrollY
+
+	sections.forEach(current =>{
+		const sectionHeight = current.offsetHeight,
+			  sectionTop = current.offsetTop - 58,
+			  sectionId = current.getAttribute('id'),
+			  sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+
+		if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
+			sectionsClass.classList.add('active-link')
+		}else{
+			sectionsClass.classList.remove('active-link')
+		}                                                    
+	})
+}
+window.addEventListener('scroll', scrollActive)
+
+/*=============== SHOW SCROLL UP ===============*/ 
+const scrollUp = () => {
+    const scrollUp = document.getElementById('scroll-up')
+    // Ajoute ou supprime la classe 'show-scroll' à 'scrollUp' en fonction du défilement de la page.
+    this.scrollY >= 350 ? scrollUp.classList.add('show-scroll') 
+                        : scrollUp.classList.remove('show-scroll')
+}
+window.addEventListener('scroll', scrollUp)
