@@ -5,6 +5,10 @@
 @import "../utils/mixins.scss";
 
 /*=============== SERVICES ===============*/
+.services {
+    background-color: $container-color;
+}
+
 .services__container {
     row-gap: 2rem;
     grid-template-columns: 250px;
