@@ -186,6 +186,99 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 /*========== Font weight ==========*/
 /*========== z index ==========*/
 /*========== Responsive typography ==========*/
+/*=============== FAQ ===============*/
+.faq {
+  background-color: hsl(0, 0%, 83%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq__title {
+  font-size: 1.75rem;
+  margin: 2rem 0rem;
+}
+
+.faq__content {
+  max-width: 700px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.faq__question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq__question h3 {
+  font-size: 1.8rem;
+  padding-right: 1rem;
+}
+
+.faq__answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease;
+}
+
+.faq__answer p {
+  padding-top: 1rem;
+  line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.faq__content.active .faq__answer {
+  max-height: 300px;
+  animation: fade 1s ease-in-out;
+}
+
+.faq__content.active .faq__icon {
+  transform: rotate(180deg);
+}
+
+.faq__icon {
+  color: hsl(0, 0%, 0%);
+  font-size: 2rem;
+  transition: transform 0.5s ease-in;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+/*=============== VARIABLES ===============*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
 /*=============== BUTTON ===============*/
 .button, .button__ghost {
   display: flex;
