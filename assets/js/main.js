@@ -125,3 +125,22 @@ const scrollUp = () => {
                         : scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({   
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    // reset: true // Réinitialise l'animation à chaque fois que l'utilisateur fait défiler la page
+})
+
+sr.reveal(`.home__image, .about__image, .contact__mail`, {origin: 'right'})
+sr.reveal(`.home__name, .home__info, .about__container, 
+            .section__title-1, .section__title-2, .about__info, 
+            .contact__social, .contact__data, .faq__title`, {origin: 'left'})
+
+sr.reveal(`.home__social-link`, {origin: 'bottom', delay:500, interval: 140})
+sr.reveal(`.about__skills-img`, {origin: 'bottom', interval: 50})
+
+sr.reveal(`.services__card, .projects__card, .faq__content`, {interval: 150})
