@@ -45,10 +45,20 @@
     padding-top: 1rem;
     line-height: 1.6;
     font-size: 1.4rem;
+    font-style: italic;
+}
+
+.faq__answer p strong {
+    color: $first-color;
+}
+
+.faq__answer-icon {
+    font-style: normal;
 }
 
 .faq__content.active .faq__answer {
-    max-height: 300px;
+
+    max-height: 750px;
     animation: fade 1s ease-in-out;
 }
 
