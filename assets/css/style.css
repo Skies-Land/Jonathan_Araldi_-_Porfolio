@@ -954,6 +954,100 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
     font-size: 2rem;
   }
 }
+/*=============== VARIABLES ===============*/
+/*=============== MIXINS ===============*/
+/*========== Media Queries ==========*/
+/* Landon Schropp’s technique 
+Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+/*=============== VARIABLES CSS ===============*/
+/*========== Colors ==========*/
+/*Color mode HSL(hue, saturation, lightness)*/
+/* 
+    Change favorite color
+    Default: hsl(255, 90%, 60%)
+    Orange: hsl(14, 90%, 60%) - Blue: hsl(210, 90%, 50%)
+    Pink: hsl(356, 100%, 65%) - Green: hsl(162, 90%, 40%)
+
+    For more colors: https://colors.dopely.top/color-pedia
+    -> Choose any color 
+    -> Click on tab (Color Conversion)
+    -> Copy the color mode (HSL)
+*/
+/*========== Font and typography ==========*/
+/*========== Font weight ==========*/
+/*========== z index ==========*/
+/*========== Responsive typography ==========*/
+/*=============== SKILLS ICON  ===============*/
+.skills {
+  margin-top: 3rem;
+}
+
+.skills__title {
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.skills__content {
+  grid-template-columns: repeat(5, max-content);
+  justify-content: center;
+  align-items: center;
+  gap: 2rem 1.5rem;
+}
+
+.skills-img {
+  position: relative;
+  width: 35px;
+  transition: transform 0.4s;
+}
+
+.skills-img:hover {
+  transform: translateY(-0.5rem);
+}
+
+.skills-hover-text {
+  position: absolute;
+  font-size: 0.813rem;
+  color: hsl(0, 0%, 35%);
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.skills-img:hover .skills-hover-text {
+  opacity: 1;
+}
+
+.skills-img .skills-hover-text::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: hsl(14, 98%, 50%);
+  transition: width 0.3s ease;
+  transition-delay: 0.3s; /* Délai avant l'apparition du soulignement */
+}
+
+.skills-img:hover .skills-hover-text::after {
+  width: 100%;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For large devices */
+@media screen and (min-width: 1150px) {
+  .skills-title {
+    text-align: initial;
+  }
+  .skills-content {
+    grid-template-columns: repeat(7, max-content);
+    justify-content: initial;
+  }
+  .skills-img {
+    width: 40px;
+  }
+}
 /*=============== IMPORT LAYOUT ===============*/
 /*=============== VARIABLES ===============*/
 /*=============== MIXINS ===============*/

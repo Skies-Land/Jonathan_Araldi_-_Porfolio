@@ -1,0 +1,76 @@
+/*=============== VARIABLES ===============*/
+@import "../utils/variables.scss";
+
+/*=============== SKILLS ICON  ===============*/
+.skills {
+    margin-top: 3rem;
+}
+
+.skills__title {
+    font-size: $h1-font-size;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.skills__content {
+    grid-template-columns: repeat(5, max-content);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem 1.5rem;
+}
+
+
+.skills-img {
+    position: relative;
+    width: 35px;
+    transition: transform 0.4s;
+}
+
+.skills-img:hover {
+    transform: translateY(-0.5rem);
+}
+
+.skills-hover-text {
+    position: absolute;
+    font-size: $small-font-size;
+    color: $text-color;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.skills-img:hover .skills-hover-text {
+    opacity: 1;
+}
+
+.skills-img .skills-hover-text::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: $first-color;
+    transition: width 0.3s ease;
+    transition-delay: 0.3s; /* Délai avant l'apparition du soulignement */
+}
+
+.skills-img:hover .skills-hover-text::after {
+    width: 100%;
+}
+
+
+/*=============== MEDIA QUERIES ===============*/
+/* For large devices */
+@media screen and (min-width: 1150px) {
+    .skills-title {
+        text-align: initial;
+    }
+    .skills-content {
+        grid-template-columns: repeat(7, max-content);
+        justify-content: initial;
+    }
+    .skills-img {
+        width: 40px;
+    }
+}
