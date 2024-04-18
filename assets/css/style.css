@@ -284,6 +284,11 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
   font-style: normal;
 }
 
+.faq__answer-introduction {
+  color: hsl(0, 0%, 0%);
+  font-weight: 600;
+}
+
 .faq__content.active .faq__answer {
   max-height: 1600px;
   animation: fade 1s ease-in-out;

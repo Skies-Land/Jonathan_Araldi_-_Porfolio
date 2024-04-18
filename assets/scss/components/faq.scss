@@ -56,6 +56,11 @@
     font-style: normal;
 }
 
+.faq__answer-introduction {
+    color: $black-color;
+    font-weight: $font-semi-bold;
+}
+
 .faq__content.active .faq__answer {
 
     max-height: 1600px;
