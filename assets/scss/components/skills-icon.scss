@@ -7,7 +7,7 @@
 }
 
 .skills__title {
-    font-size: $h2-font-size;
+    font-size: $h1-font-size;
     text-align: center;
     margin-bottom: 3rem;
 }
@@ -17,11 +17,14 @@
     justify-content: center;
     align-items: center;
     gap: 2rem 1.5rem;
+    scale: 1.2;
 }
 
 
 .skills-img {
     position: relative;
+    scale: 1.2;
+    margin-right: 0.7rem;
     width: 35px;
     transition: transform 0.4s;
 }

@@ -256,7 +256,6 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 
 .collapse__container li:hover {
   box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
-  transition: all 0.4s ease-in-out;
 }
 
 .collapse__content {
@@ -984,7 +983,7 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 }
 
 .skills__title {
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -994,10 +993,13 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
   justify-content: center;
   align-items: center;
   gap: 2rem 1.5rem;
+  scale: 1.2;
 }
 
 .skills-img {
   position: relative;
+  scale: 1.2;
+  margin-right: 0.7rem;
   width: 35px;
   transition: transform 0.4s;
 }
@@ -1811,6 +1813,8 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 
 .about__skills-img {
   position: relative;
+  scale: 1.17;
+  margin-right: 0.7rem;
   width: 35px;
   transition: transform 0.4s;
 }
