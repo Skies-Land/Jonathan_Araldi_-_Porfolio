@@ -142,4 +142,4 @@ sr.reveal(`.home__name, .home__info, .about__container,
 
 sr.reveal(`.home__social-link`, {origin: 'bottom', delay:500, interval: 140})
 
-sr.reveal(`.projects__card, .faq__content`, {interval: 150})
+sr.reveal(`.projects__card, .faq__content, .collapse__card`, {interval: 150})

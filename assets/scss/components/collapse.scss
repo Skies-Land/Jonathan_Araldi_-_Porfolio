@@ -1,0 +1,87 @@
+/*=============== VARIABLES ===============*/
+@import "../utils/variables.scss";
+
+/*=============== COLLAPSE ===============*/
+.collapse {
+    justify-content: center;
+    row-gap: 2rem;
+    padding-top: 1rem;
+}
+
+.collapse__card {
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 10px;
+    border-radius: 25px;
+    background: $body-color;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.collapse__container li label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.collapse__container li:hover {
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2) ;
+    transition: all 0.4s ease-in-out;
+}
+
+.collapse__content {
+    background-color: $body-color;
+    border-radius: 25px;
+    transition: background-color 0.4s, border 0.4s;
+}
+
+.collapse__title {
+    color: $black-color;
+    font-size: $h2-font-size;
+    font-weight: $font-semi-bold;
+}
+
+.collapse__description {
+    color: $black-color-light;
+    font-size: $h3-font-size;
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.collapse__container label::before {
+    content: "▶️";
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.collapse__container input[type="radio"] {
+    display: none;
+}
+
+.collapse__container input[type="radio"]:checked + label + .collapse__description {
+    max-height: 400px;
+    padding: 10px 10px 20px;
+}
+
+.collapse__container input[type="radio"]:checked + label::before {
+    content: "🔽";
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .collapse__container {
+        grid-template-columns: 750px;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+    .collapse {
+        grid-template-columns: 1120px;
+    }
+}

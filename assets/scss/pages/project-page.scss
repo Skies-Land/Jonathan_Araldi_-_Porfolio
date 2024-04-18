@@ -1,0 +1,8 @@
+/*=============== VARIABLES ===============*/
+@import "../utils/variables.scss";
+
+/*=============== PROJECT-PAGE ===============*/
+.project-page {
+    background-color: $container-color;
+    transition: background-color 0.4s;
+}
