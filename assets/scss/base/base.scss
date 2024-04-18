@@ -78,6 +78,7 @@ img {
 .section__title-2 {
     position: relative;
     font-size: $h1-font-size;
+    font-weight: 800;
     width: max-content;
     margin: 0.75rem auto 2rem;
 }
@@ -85,6 +86,7 @@ img {
 .section__title-1 span,
 .section__title-2 span {
     position: relative;
+    
 }
 
 .section__title-1::after,

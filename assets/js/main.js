@@ -135,11 +135,11 @@ const sr = ScrollReveal({
     // reset: true // Réinitialise l'animation à chaque fois que l'utilisateur fait défiler la page
 })
 
-sr.reveal(`.home__image, .about__image, .contact__mail`, {origin: 'right'})
+sr.reveal(`.home__image, .about__image, .contact__mail, .skills`, {origin: 'right'})
 sr.reveal(`.home__name, .home__info, .about__container, 
             .section__title-1, .section__title-2, .about__info, 
             .contact__social, .contact__data, .faq__title`, {origin: 'left'})
 
-sr.reveal(`.home__social-link`, {origin: 'bottom', delay:500, interval: 140})
+sr.reveal(`.home__social-link, .project-page__buttons`, {origin: 'bottom', delay:500, interval: 140})
 
 sr.reveal(`.projects__card, .faq__content, .collapse__card`, {interval: 150})
