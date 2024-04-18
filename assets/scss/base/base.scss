@@ -78,7 +78,6 @@ img {
 .section__title-2 {
     position: relative;
     font-size: $h1-font-size;
-    font-weight: 800;
     width: max-content;
     margin: 0.75rem auto 2rem;
 }
@@ -135,6 +134,14 @@ img {
     }
 }
 
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .section__title-1,
+    .section__title-2 {
+        font-weight: 800;
+    }
+}
+
 /* For large devices */
 @media screen and (min-width: 1150px) {
     .container {
@@ -143,6 +150,8 @@ img {
     .section {
         padding-block: 7rem 2rem;
     }
+
+    
     .section__title-1::after,
     .section__title-2::after {
         width: 70px;

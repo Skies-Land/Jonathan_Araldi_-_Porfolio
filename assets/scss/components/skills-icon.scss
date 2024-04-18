@@ -1,7 +1,7 @@
 /*=============== VARIABLES ===============*/
 @import "../utils/variables.scss";
 
-/*=============== SKILLS ICON  ===============*/
+/*=============== SKILLS ICON ===============*/
 .skills {
     margin-top: 3rem;
 }
@@ -13,9 +13,10 @@
 }
 
 .skills__content {
-    grid-template-columns: repeat(5, max-content);
+    grid-template-columns: repeat(4, max-content);
     justify-content: center;
     align-items: center;
+    margin-top: 5rem;
     gap: 2rem 1.5rem;
     scale: 1.2;
 }
@@ -68,10 +69,6 @@
 @media screen and (min-width: 1150px) {
     .skills-title {
         text-align: initial;
-    }
-    .skills-content {
-        grid-template-columns: repeat(7, max-content);
-        justify-content: initial;
     }
     .skills-img {
         width: 40px;

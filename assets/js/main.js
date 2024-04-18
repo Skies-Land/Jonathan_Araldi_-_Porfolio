@@ -135,7 +135,7 @@ const sr = ScrollReveal({
     // reset: true // Réinitialise l'animation à chaque fois que l'utilisateur fait défiler la page
 })
 
-sr.reveal(`.home__image, .about__image, .contact__mail, .skills`, {origin: 'right'})
+sr.reveal(`.home__image, .about__image, .contact__mail, .skills, .slides__container`, {origin: 'right'})
 sr.reveal(`.home__name, .home__info, .about__container, 
             .section__title-1, .section__title-2, .about__info, 
             .contact__social, .contact__data, .faq__title`, {origin: 'left'})
