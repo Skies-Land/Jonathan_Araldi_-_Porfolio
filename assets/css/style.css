@@ -1017,7 +1017,7 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 
 .skills-hover-text {
   position: absolute;
-  font-size: 0.813rem;
+  font-size: 0.6rem;
   color: hsl(0, 0%, 35%);
   bottom: -15px;
   left: 50%;
