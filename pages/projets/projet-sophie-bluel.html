@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="icon" href="../../assets/image/favicon.png" type="image/x-icon" />
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="../../assets/css/style.css">
+
+        <title>Projet Sophie Bleul OpenClassrooms - Jonathan - Portfolio</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="../../index.html" class="nav__logo">
+                    <span class="nav__logo-circle">J</span>
+                    <span class="nav__logo-name">Jonathan Araldi.</span>
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <span class="nav__title">Menu</span>
+
+                    <h3 class="nav__name">Jonathan</h3>
+
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                        <a href="../../index.html" class="nav__link">Accueil</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../about.html" class="nav__link">À propos</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../../index.html#projects" class="nav__link">Projets</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="../contact.html" class="nav__link nav__link-button">Contact</a>
+                        </li>
+                    </ul>
+
+                    <!-- Close button -->
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__buttons">
+
+                    <!-- Toggle button -->
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-apps-2-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== PROJET SOPHIE BLUEL ====================-->
+            <section class="project-page section">
+                <h2 class="section__title-1">
+                    <span>Projet Sophie Bluel.</span>
+                </h2>
+                <!--SLIDE-->
+                <div class="slides__container container grid">
+                    <div class="slides">
+                        <div class="slide slide-1">
+                            <img src="" alt="Image 1 du projet Sophie Bluel">
+                        </div>
+                        <div class="slide slide-2">
+                            <img src="" alt="Image 2 du projet Sophie Bluel">
+                        </div>
+                        <div class="slide slide-3">
+                            <img src="" alt="Image 3 du projet Sophie Bluel">
+                        </div>
+                    </div>
+                </div>
+
+                <!--COLLAPSE-->
+                <div class="collapse container grid">
+
+                    <ul class="collapse__container">
+                        <li class="collapse__card">
+                            <div class="collapse__content">
+                                <input type="radio" name="collapse" id="first" checked>
+                                <label class="collapse__title" for="first">Thème</label>
+                                <div class="collapse__description">
+                                    <p>Créer une page web dynamique pour le site portfolio d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API.</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="collapse__card">
+                            <div class="collapse__content">
+                                <input type="radio" name="collapse" id="second">
+                                <label class="collapse__title" for="second">Mission</label>
+                                <div class="collapse__description">
+                                    <p>Implémenter la partie front-end d’un site de portfolio d’une architecte d’intérieur.</p>
+                                    <br>
+                                        <p>- Page de présentation des travaux de l’architecte</p>
+                                        <p>- Page de connexion de l’administrateur du site</p>
+                                        <p>- Modale permettant l’upload de nouveaux médias</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="collapse__card">
+                            <div class="collapse__content">
+                                <input type="radio" name="collapse" id="third">
+                                <label class="collapse__title" for="third">Compétences évaluées</label>
+                                <div class="collapse__description">
+                                    <p>- Gérer les événements utilisateurs avec JavaScript</p><br>
+                                    <p>- Manipuler les éléments du DOM avec JavaScript</p><br>
+                                    <p>- Récupérer les données utilisateurs dans le JavaScript via des formulaires</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="collapse__card">
+                            <div class="collapse__content">
+                                <input type="radio" name="collapse" id="four">
+                                <label class="collapse__title" for="four">Information pour la démo</label>
+                                <div class="collapse__description">
+                                    <p>
+                                        Pour tester ce projet, il vous faut récupérer le backend sur mon repository.
+                                        Les identifiants nécessaires pour accéder à la page d'administration sont les suivants :
+                                    </p> <br>
+                                    <p>- <strong>Email</strong>: sophie.bluel@test.tld</p>
+                                    <p>- <strong>Password</strong>: S0phie</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--SKILLS-ICON-->
+                <div class="skills">
+                    <h3 class="skills__title">Technologies utilisées</h3>
+
+                    <div class="skills__content grid">
+
+                        <!-- HTML -->
+                        <div class="skills-img">
+                            <img src="../../assets/image/skill-icon/html.svg" alt="Image HTML" class="skills-img">
+                            <p class="skills-hover-text">HTML</p>
+                        </div>
+                        <!-- CSS -->
+                        <div class="skills-img">
+                            <img src="../../assets/image/skill-icon/css.svg" alt="Image CSS" class="skills-img">
+                            <p class="skills-hover-text">CSS</p>
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="about__skills-img">
+                            <img src="../../assets/image/skill-icon/javascript.svg" alt="Image JavaScript" class="skills-img">
+                            <p class="about__skills-hover-text">JavaScript</p>
+                        </div>
+                        <!-- Swagger -->
+                        <div class="skills-img">
+                            <img src="../../assets/image/skill-icon/swagger.svg" alt="Image Swagger" class="skills-img">
+                            <p class="skills-hover-text">Swagger</p>
+                        </div>
+                        <!-- Git -->
+                        <div class="skills-img">
+                            <img src="../../assets/image/skill-icon/git.svg" alt="Image Git" class="skills-img">
+                            <p class="skills-hover-text">Git</p>
+                        </div>
+                        <!-- GitHub -->
+                        <div class="skills-img">
+                            <img src="../../assets/image/skill-icon/github.svg" alt="Image GitHub" class="skills-img">
+                            <p class="skills-hover-text">GitHub</p>
+                        </div>
+                        
+
+                    </div>
+                </div>
+
+                <!--BUTTONS-->
+                <div class="project-page__buttons">
+                    <a href="https://github.com/Skies-Land/Projet_6_OpenClassrooms_-_Portfolio_Sophie_Bluel" target="_blank" class="button">
+                        <i class="ri-github-line"></i> Code Source
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <a href="../../index.html" class="footer__logo">Jonathan Araldi.</a>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="../about.html" class="footer__link">À propos</a>
+                        </li>
+
+                        <li>
+                            <a href="../../index.html#projects" class="footer__link">Projets</a>
+                        </li>
+
+                        <li>
+                            <a href="../contact.html" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__social">
+
+                        <a href="https://www.linkedin.com/in/jonathan-araldi/" target="_blank" class="footer__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+
+                        <a href="https://github.com/Skies-Land" target="_blank" class="footer__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+
+                        <a href="https://codepen.io/Skies-Land" target="_blank" class="footer__social-link">
+                            <i class="ri-codepen-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <span class="footer__copy">
+                    &#169; Tous droits réservés par
+                    <a href="../../index.html">Jonathan Araldi.</a>
+                </span>
+            </div>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="../../assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="../../assets/js/main.js"></script>
+    </body>
+</html>
