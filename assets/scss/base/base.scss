@@ -109,7 +109,7 @@ img {
     width: 20px;
     height: 20px;
     background-color: $first-color;
-    rotate: -30deg;
+    transform: rotate(-30deg);
 }
 
 .geometric-box::after {

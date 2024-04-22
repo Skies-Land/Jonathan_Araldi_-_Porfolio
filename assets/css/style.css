@@ -130,7 +130,7 @@ img {
   width: 20px;
   height: 20px;
   background-color: hsl(14, 98%, 50%);
-  rotate: -30deg;
+  transform: rotate(-30deg);
 }
 
 .geometric-box::after {
@@ -1000,12 +1000,12 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
   align-items: center;
   margin-top: 5rem;
   gap: 2rem 1.5rem;
-  scale: 1.2;
+  transform: scale(1.2);
 }
 
 .skills-img {
   position: relative;
-  scale: 1.2;
+  transform: scale(1.2);
   margin-right: 0.7rem;
   width: 35px;
   transition: transform 0.4s;
@@ -1017,7 +1017,7 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 
 .skills-hover-text {
   position: absolute;
-  font-size: 0.6rem;
+  font-size: 0.9rem;
   color: hsl(0, 0%, 35%);
   bottom: -15px;
   left: 50%;
@@ -1127,7 +1127,7 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
   }
   30% {
     opacity: 1;
-    scale: 1.03;
+    transform: scale(1.03);
   }
   50% {
     opacity: 0;
@@ -1740,14 +1740,14 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
   .home__arrow {
     top: 4.5rem;
     left: -8rem;
-    rotate: 80deg;
+    transform: rotate(80deg);
     width: 80px;
   }
   .home__line {
     left: -15rem;
     bottom: 4rem;
     width: 80px;
-    rotate: 30deg;
+    transform: rotate(30deg);
   }
   .home__social {
     left: initial;
@@ -1880,6 +1880,10 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
   cursor: pointer;
 }
 
+.about__skills {
+  margin-top: 2.1rem;
+}
+
 .about__buttons {
   display: flex;
   justify-content: center;
@@ -1890,12 +1894,12 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 .about__skills-title {
   font-size: 1.125rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .about__skills-img {
   position: relative;
-  scale: 1.17;
+  transform: scale(1.17);
   margin-right: 0.7rem;
   width: 35px;
   transition: transform 0.4s;
@@ -1907,7 +1911,7 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 
 .about__skills-hover-text {
   position: absolute;
-  font-size: 0.813rem;
+  font-size: 0.9rem;
   color: hsl(0, 0%, 35%);
   bottom: -15px;
   left: 50%;
@@ -2158,7 +2162,7 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
   color: hsl(0, 0%, 95%);
   padding: 0.5rem 1rem;
   font-weight: 500;
-  transition: border 0.4s background-color 0.4s;
+  transition: border 0.4s, background-color 0.4s;
 }
 
 .contact__input::placeholder {
@@ -2269,7 +2273,7 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 
 .contact__message {
   color: hsl(0, 0%, 95%);
-  font-size: small-font-size;
+  font-size: 0.813rem;
   position: absolute;
   bottom: -1.6rem;
   left: 0;

@@ -244,14 +244,14 @@
     .home__arrow {
         top: 4.5rem;
         left: -8rem;
-        rotate: 80deg;
+        transform: rotate(80deg);
         width: 80px;
     }
     .home__line {
         left: -15rem;
         bottom: 4rem;
         width: 80px;
-        rotate: 30deg;
+        transform: rotate(30deg);
     }
     .home__social {
         left: initial;

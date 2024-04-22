@@ -99,6 +99,11 @@
     }
 }
 
+.about__skills {
+    margin-top: 2.1rem;
+
+}
+
 .about__buttons {
     display: flex;
     justify-content: center;
@@ -109,12 +114,12 @@
 .about__skills-title {
     font-size: $h3-font-size;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .about__skills-img {
     position: relative;
-    scale: 1.17;
+    transform: scale(1.17);
     margin-right: 0.7rem;
     width: 35px;
     transition: transform 0.4s;
@@ -126,7 +131,7 @@
 
 .about__skills-hover-text {
     position: absolute;
-    font-size: $small-font-size;
+    font-size: 0.9rem;
     color: $text-color;
     bottom: -15px;
     left: 50%;
