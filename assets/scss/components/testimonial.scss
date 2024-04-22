@@ -1,0 +1,83 @@
+/*=============== VARIABLES ===============*/
+@import "../utils/variables.scss";
+
+/*=============== TESTIMONIAL ===============*/
+.testimonial__container {
+    position: relative;
+    margin-top: 3rem;
+}
+
+.testimonial__title {
+    font-size: $h1-font-size;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.testimonial__content {
+    padding-bottom: 2rem;
+}
+
+.testimonial__card {
+    background-color: $container-color;
+    padding: 2rem 1.25rem 2.5rem 1.25rem;
+    border-inline: 8px solid $first-color;
+    box-shadow: $shadow-component;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: background-color 0.4s;
+}
+
+.testimonial__border {
+    width: 100px;
+    height: 100px;
+    border: 3px solid $first-color;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+}
+
+.testimonial__name {
+    font-size: $h2-font-size;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial__description {
+    color: $black-color-light;
+    font-size: $h3-font-size;
+    margin-top: 1.5rem;
+}
+
+.testimonial__link {
+    text-decoration: underline;
+    color: $first-color;
+    font-weight: $font-medium;
+    transition: color 0.4s;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For medium devices */
+@media screen and (min-width: 768px) {
+    .testimonial__container {
+        max-width: 700px;
+        margin-inline: auto;
+    }
+    .testimonial__description {
+        width: 470px;
+        margin-inline: auto;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+    .testimonial__card {
+        padding-block: 3rem 3.5rem;
+    }
+    .testimonial__border {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1.5rem;
+    }
+}
