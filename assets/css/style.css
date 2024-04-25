@@ -298,7 +298,7 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
 }
 
 .collapse__container input[type=radio]:checked + label + .collapse__description {
-  max-height: 400px;
+  max-height: 1400px;
   padding: 10px 10px 20px;
 }
 
