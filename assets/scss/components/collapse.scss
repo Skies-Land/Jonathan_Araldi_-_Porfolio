@@ -50,6 +50,16 @@
     transition: max-height 0.5s, padding 0.5s;
 }
 
+.collapse__link {
+    text-decoration: underline;
+    color: $first-color;
+    font-weight: $font-medium;
+    transition: color 0.4s;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
 .collapse__container label::before {
     content: "▶️";
     margin-right: 10px;
