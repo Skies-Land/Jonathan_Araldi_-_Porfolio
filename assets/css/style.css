@@ -1143,6 +1143,19 @@ Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropp
     opacity: 0;
   }
 }
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (min-width: 375px) {
+  .slides__container {
+    display: none;
+  }
+}
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .slides__container {
+    display: grid;
+  }
+}
 /*=============== VARIABLES ===============*/
 /*=============== MIXINS ===============*/
 /*========== Media Queries ==========*/
