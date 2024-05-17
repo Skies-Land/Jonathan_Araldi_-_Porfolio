@@ -30,6 +30,14 @@
     $shadow-button: rgba(0, 0, 0, 0.2) 0px 8px 24px;
     $shadow-component: 0px 10px 15px -3px rgba(0,0,0,0.1);
     $shadow-component-hover: 0px 8px 24px rgba(0, 0, 0, 0.2);
+    /*========== Variables Dark theme ==========*/
+    $first-color-dark: hsl(14, 80%, 50%);
+    $black-color-dark: hsl(0, 0%, 18%);
+    $black-color-light-dark: hsl(0, 0%, 30%);
+    $title-color-dark: hsl(0, 0%, 95%);
+    $text-color-dark: hsl(0, 0%, 70%);
+    $body-color-dark: hsl(0, 0%, 8%);
+    $container-color-dark: hsl(0, 0%, 12%);
 
 /*========== Font and typography ==========*/
     $body-font: "Syne", sans-serif;
