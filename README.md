@@ -1,34 +1,8 @@
-# 🎨 Projet 12 - [OpenClassrooms](https://openclassrooms.com/fr/) "Intégrateur Web"
-Création et publication en ligne de mon portfolio de développeur.
+# React + Vite
 
-##
-### 🔗 Resources
-- [Node.js](https://nodejs.org/en) pour exécuter des commandes `npm`
-- [SASS](https://sass-lang.com/) pour travailler style CSS
-  ###
-Initialise un package.json
-```bash
-npm init -y
-```
-###
-Permet de lier SASS au package.json
-```bash
-npm install sass --save-dev 
-```
-###
-Installation de SASS
-```bash
-npm install -g sass
-```
-- [Color Pedia](https://colors.dopely.top/color-pedia) palette de couleur
-- [Flaticon](https://www.flaticon.com/fr/) pour l'ajout d'icône dans la barre d'onglet
-- [Remixicon](https://remixicon.com/) comme icône système pour les pages html
-- ["Syne" - Google Fonts](https://fonts.google.com/specimen/Syne?query=syne) comme style de font utilisé
-- [WorldVectorLogo](https://worldvectorlogo.com/) comme librairie de logo
-- [ScrollReveal](https://scrollrevealjs.org/) animation d'apparition
-- [Emailjs](https://www.emailjs.com/) pour rendre le formulaire de contact fonctionnel
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-### Decription 
-- Site web de portfolio personnel responsive développé : HTML, CSS, JavaScript & SASS
-- Contient plusieurs pages (À propos, Projet & Contact)
-- Développé d'abord avec la méthodologie Mobile First, puis pour les ordinateurs de bureau.
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
