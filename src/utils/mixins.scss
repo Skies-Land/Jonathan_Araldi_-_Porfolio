@@ -1,0 +1,52 @@
+/*========== Media Queries ==========*/
+    /* Landon Schropp’s technique 
+    Source : https://css-tricks.com/approaches-media-queries-sass/#aa-landon-schropps-technique */
+
+    @mixin small-mobile { 
+        @media (min-width: 320px) {
+            // Pour les petits appareils mobiles
+            @content;
+        }
+    }
+
+    @mixin mobile {
+        @media (min-width: 576px) {
+            // Pour les appareils mobiles standard
+            @content;
+        }
+    }
+
+    @mixin tablet {
+        @media (min-width: 768px) {
+            // Pour les tablettes
+            @content;
+        }
+    }
+
+    @mixin small-desktop {
+        @media (min-width: 1150px) {
+            // Pour les petits écrans de bureau
+            @content;
+        }
+    }
+
+    @mixin small-desktop-2 {
+        @media (max-width: 1150px) {
+            // Pour les petits écrans de bureau
+            @content;
+        }
+    }
+
+    @mixin desktop {
+        @media (min-width: 1500px) {
+            // Pour les écrans de bureau standard
+            @content;
+        }
+    }
+
+    @mixin large-desktop {
+        @media (min-width: 2048px) {
+            // Pour les grands écrans de bureau
+            @content;
+        }
+    }

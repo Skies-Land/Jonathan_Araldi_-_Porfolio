@@ -1,0 +1,30 @@
+/*=============== IMPORT BASE ===============*/
+@import "./base/base.scss";
+
+/*=============== IMPORT COMPONENTS ===============*/
+@import "./components/button-service/button-service.scss";
+@import "./components/card-project/card-project.scss";
+@import "./components/card-services/card-services.scss";
+@import "./components/collapse/collapse.scss";
+@import "./components/faq/faq.scss";
+@import "./components/home-section/home-section.scss";
+@import "./components/main-button/main-button.scss";
+@import "./components/navbar/navbar.scss";
+@import "./components/scroll-bar/scroll-bar.scss";
+@import "./components/scroll-up/scroll-up.scss";
+@import "./components/skills-icon/skills-icon.scss";
+@import "./components/slider/slider.scss";
+@import "./components/testimonial/testimonial.scss";
+
+/*=============== IMPORT LAYOUT ===============*/
+@import "./layout/footer/footer.scss";
+@import "./layout/header/header.scss";
+
+/*=============== IMPORT PAGES ===============*/
+@import "./pages/about/about.scss";
+@import "./pages/description-project-page/description-project-page.scss";
+@import "./pages/contact/contact.scss";
+
+/*=============== IMPORT THEME ===============*/
+@import "./theme/prefers-color-scheme.scss";
+

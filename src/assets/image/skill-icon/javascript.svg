@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 113" width="150" height="113">
+	<title>about-sass-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h150v112.5h-150z"/>
+		</clipPath>
+		<image width="124" height="143" id="img1" href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJub25lIiBoZWlnaHQ9IjI1MDAiIHdpZHRoPSIyMTgzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjQgMTQxLjUzMTk5OTk5OTk5OTk4Ij48cGF0aCBkPSJNMTAuMzgzIDEyNi44OTRMMCAwbDEyNCAuMjU1LTEwLjk3OSAxMjYuNjM5LTUwLjU1MyAxNC42Mzh6IiBmaWxsPSIjZTljYTMyIi8+PHBhdGggZD0iTTYyLjQ2OCAxMjkuMjc3VjEyLjA4NWw1MS4wNjQuMTctOS4xMDYgMTA0Ljg1MXoiIGZpbGw9IiNmZmRlMjUiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJNNTcgMjZINDMuNXY3OEwzMyAxMDJWOTEuNWwtMTIuNS0yVjExM2wzNi41IDkuNXpNNjcuMTI3IDI2SDEwNC41TDEwMiA0MC45NUg4MS4zOTR2MjQuNTMzSDEwMkw5OS41IDExNWwtMzIuMzczIDcuNVYxMDdMODkgOTkuNSA5MC4yNjMgNzlsLTIzLjEzNiAzLjM1eiIvPjwvZz48L3N2Zz4="/>
+	</defs>
+	<style>
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<use id="JavaScript" href="#img1" transform="matrix(.79,0,0,.79,26,0)"/>
+	</g>
+</svg>

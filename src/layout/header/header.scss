@@ -1,0 +1,21 @@
+/*=============== VARIABLES ===============*/
+@import "../../utils/variables.scss";
+
+/*=============== MIXINS ===============*/
+@import "../../utils/mixins.scss";
+
+/*=============== HEADER ===============*/
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: $body-color;
+    z-index: $z-fixed;
+    transition: box-shadow 0.4s, background-color 0.4s;
+}
+
+/* Add shadow header */
+.shadow-header {
+    box-shadow: 0 1px 16px hsla(0, 0%, 0%, 0.12);
+}

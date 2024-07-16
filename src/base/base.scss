@@ -1,0 +1,171 @@
+/*=============== VARIABLES ===============*/
+@import "../utils/variables.scss";
+
+/*=============== MIXINS ===============*/
+@import "../utils/mixins.scss";
+
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $body-font;
+    font-size: $normal-font-size;
+    background-color: $body-color;
+    color: $text-color;
+    transition: background-color .4s; /* Pour le Dark theme */
+}
+
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+
+h1, h2, h3, h4 {
+    color: $title-color;
+    font-weight: $font-bold;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/*=============== THEME ===============*/
+.nav__buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+    max-width: 1120px;
+    margin-inline: 1.5rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.section {
+    padding-block: 4rem 2rem;
+}
+
+.section__title-1,
+.section__title-2 {
+    position: relative;
+    font-size: $h1-font-size;
+    width: max-content;
+    margin: 0.75rem auto 2rem;
+}
+
+.section__title-1 span,
+.section__title-2 span {
+    position: relative;
+    
+}
+
+.section__title-1::after,
+.section__title-2::after {
+    content: "";
+    width: 40px;
+    height: 28px;
+    background-color: hsla(14, 98%, 50%, 0.2);
+    position: absolute;
+    top: -4px;
+    right: -8px;
+}
+
+.section__title-2::after {
+    top: initial;
+    bottom: -4px;
+}
+
+.geometric-box {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: $first-color;
+    transform: rotate(-30deg);
+}
+
+.geometric-box::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 3px solid $black-color;
+    left: -5px;
+    top: -5px;
+}
+
+.main {
+    overflow: hidden; /* For animation ScrollReveal */
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+    .container {
+        margin-inline: 1rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) {
+    .section__title-1,
+    .section__title-2 {
+        font-weight: 800;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1150px) {
+    .container {
+        margin-inline: auto;
+    }
+    .section {
+        padding-block: 7rem 2rem;
+    }
+
+    
+    .section__title-1::after,
+    .section__title-2::after {
+        width: 70px;
+        height: 48px;
+    }
+}
