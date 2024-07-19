@@ -24,7 +24,7 @@ const Navbar = ({ showMenu, setShowMenu }) => {
                     </li>
 
                     <li className="nav__item">
-                        <Link to="#projects" className="nav__link" aria-label="Voir mes projets">Projets</Link>
+                        <a href="#projects" className="nav__link" aria-label="Voir mes projets">Projets</a>
                     </li>
 
                     <li className="nav__item">

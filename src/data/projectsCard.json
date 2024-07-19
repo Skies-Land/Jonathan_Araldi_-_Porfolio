@@ -1,0 +1,86 @@
+[
+    {
+        "id": "booki",
+        "title": "Booki",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Création d'une landing page d'une agence de voyage avec HTML & CSS.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/booki/booki-0.webp",
+        "pageLink": "./pages/projets/projet-booki.html",
+        "githubLink": "https://github.com/Skies-Land/Projet_3_OpenClassrooms_-_Booki",
+        "previewLink": "https://skies-land.github.io/Projet_3_OpenClassrooms_-_Booki/"
+    },
+    {
+        "id": "ohmyfood",
+        "title": "Ohmyfood",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Développement d'un site qui répertorie les menus de restaurants gastronomiques.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/ohmyfood/ohmyfood-0.webp",
+        "pageLink": "./pages/projets/projet-ohmyfood.html",
+        "githubLink": "https://github.com/Skies-Land/Projet_4_OpenClassrooms_-_OhMyFood",
+        "previewLink": "https://skies-land.github.io/Projet_4_OpenClassrooms_-_OhMyFood/"
+    },
+    {
+        "id": "print-it",
+        "title": "Print It",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Développement d'un carrousel d'image pour la page d'accueil d'une entreprise d'imprimerie.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/print-it/print-it-0.webp",
+        "pageLink": "./pages/projets/projet-print-it.html",
+        "githubLink": "https://github.com/Skies-Land/Projet_5_OpenClassrooms_-_Print_it",
+        "previewLink": "https://skies-land.github.io/Projet_5_OpenClassrooms_-_Print_it/"
+    },
+    {
+        "id": "sophie-bluel",
+        "title": "Sophie Bluel",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Implémentation de la partie Front-End d'un site de portfolio d'une architecte d'intérieur.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/sophie-bluel/sophie-bluel-0.webp",
+        "pageLink": "./pages/projets/projet-sophie-bluel.html",
+        "githubLink": "https://github.com/Skies-Land/Projet_6_OpenClassrooms_-_Portfolio_Sophie_Bluel"
+    },
+    {
+        "id": "menu-maker",
+        "title": "Menu Maker",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Planification du développement du site web, sans intervenir directement dans le codage.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/menu-maker/menu-maker-0.webp",
+        "pageLink": "./pages/projets/projet-menu-maker.html"
+    },
+    {
+        "id": "kasa",
+        "title": "Kasa",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Création d'une application web de location immobilière avec React & React-router.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/kasa/kasa-0.webp",
+        "pageLink": "./pages/projets/projet-kasa.html",
+        "githubLink": "https://github.com/Skies-Land/Projet_8_OpenClassrooms_-_Kasa"
+    },
+    {
+        "id": "nina-carducci",
+        "title": "Nina Carducci",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Optimisation du référencement (SEO) et des performances d'un site de photographe.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/nina-carducci/nina-carducci-0.webp",
+        "pageLink": "./pages/projets/projet-nina-carducci.html",
+        "githubLink": "https://github.com/Skies-Land/Projet_9_OpenClassrooms_-_Nina_Carducci",
+        "previewLink": "https://skies-land.github.io/Projet_9_OpenClassrooms_-_Nina_Carducci/"
+    },
+    {
+        "id": "724events",
+        "title": "724events",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Debuggage d'un site d'une agence d'événementiel.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/724event/724events-0.webp",
+        "pageLink": "./pages/projets/projet-724events.html",
+        "githubLink": "https://github.com/Skies-Land/Projet_10_OpenClassrooms_-_724_events"
+    },
+    {
+        "id": "argent-bank",
+        "title": "Argent Bank",
+        "subtitle": "Projet formation",
+        "description": "Projet OpenClassrooms - Implémentation du front-end pour une application bancaire avec React.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/argent-bank/argent-bank-0.webp",
+        "pageLink": "./pages/projets/projet-argent-bank.html",
+        "githubLink": "https://github.com/Skies-Land/Projet_11_OpenClassrooms_-_ArgentBank"
+    }
+]

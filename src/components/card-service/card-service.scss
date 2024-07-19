@@ -19,27 +19,6 @@
 .services__card {
     position: relative;
     text-align: center;
-    /* Initialisation de l'animation des cards */
-    animation: fade-in 2s ease-in-out backwards;
-    opacity: 1;
-    @for $i from 2 through 4 {
-    /* Initialisation du delay d'animation */
-        &:nth-child(#{$i}){
-            animation-delay: $i * 300ms;
-        }
-    }
-}
-
-/* Processus d'animation des cards */
-@keyframes fade-in {
-    0% { 
-        transform: translatex(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translatex(0px);
-        opacity: 1;
-    }
 }
 
 .services__content {

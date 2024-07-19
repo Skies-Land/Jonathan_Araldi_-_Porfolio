@@ -1,0 +1,69 @@
+[
+    {
+        "question": "Les outils que j'utilise...",
+        "answer": [
+            {
+            "icon": "💻",
+            "introduction": "Pour coder mes projets",
+            "description": "j'utilise VS Code sous les systèmes d'exploitation Windows/macOS."
+            },
+            {
+            "icon": "🌐",
+            "introduction": "Pour développer des sites web",
+            "description": "j'utilise HTML, CSS, JavaScript, React et SASS pour créer des interfaces utilisateur interactives et attrayantes."
+            },
+            {
+            "icon": "👾",
+            "introduction": "Pour le versionnage de code",
+            "description": "j'utilise Git et GitHub pour stocker mes projets en ligne."
+            },
+            {
+            "icon": "🚀",
+            "introduction": "Pour le déploiement",
+            "description": "j'utilise GitHub Pages pour héberger mes projets en ligne."
+            },
+            {
+            "icon": "💬",
+            "introduction": "Pour la communication",
+            "description": "j'utilise Slack et Discord pour échanger avec d'autres développeurs."
+            },
+            {
+            "icon": "⚙️",
+            "introduction": "Pour gérer les performances de mes sites web",
+            "description": "j'utilise Lighthouse pour auditer et optimiser les performances de mes sites web combiner avec l'extension WAVE pour améliorer l'accessibilité."
+            },
+            {
+            "icon": "🧠",
+            "introduction": "Pour continuer d'apprendre",
+            "description": "j'utilise les ressources OpenClassrooms / Udemy / Stack Overflow / YouTube / les documentation des librairie."
+            }
+        ]
+        },
+
+        {
+        "question": "Ce qui m'attire dans le développement web...",
+        "answer": "J'ai toujours été fasciné par la façon dont les sites web peuvent impacter et faciliter la vie quotidienne des utilisateurs. Le développement web offre une combinaison unique de créativité et de logique, où je peux constamment apprendre et relever de nouveaux défis techniques. De plus, être capable de créer quelque chose de tangible et accessible à tous sur internet est extrêmement gratifiant pour moi."
+        },
+
+        {
+        "question": "Mes objectifs professionnels à court, moyen et long terme sont...",
+        "answer": [
+            {
+            "introduction": "À court terme",
+            "description": "je vise à acquérir une expérience pratique en travaillant sur des projets réels, afin de renforcer mes compétences techniques et de me familiariser avec les bonnes pratiques de l'industrie."
+            },
+            {
+            "introduction": "À moyen terme",
+            "description": "je souhaite me spécialiser davantage dans le développement front-end en explorant des technologies émergentes telles que les frameworks JavaScript avancés."
+            },
+            {
+            "introduction": "À long terme",
+            "description": "j'aspire à élargir mes compétences en me lançant dans le développement back-end, tout en contribuant activement à des projets innovants au sein d'une équipe dynamique."
+            }
+        ]
+        },
+        {
+            "question": "Mes qualités principales...",
+            "answer": "Je suis rigoureux dans mon approche du travail, ce qui se traduit par une attention aux détails et un souci constant de la qualité. \n\nJe prends le temps de bien soigner la présentation et l'indentation de mon code, puis d'ajouter des commentaires afin de faciliter le partage et la collaboration harmonieuse.\n\nJe suis également passionné par l'apprentissage continu et je suis toujours à la recherche de nouvelles opportunités pour développer mes compétences et élargir mes horizons professionnels."
+        }
+]
