@@ -1,7 +1,11 @@
 import React from 'react'
-import projectsCard from '../../data/projectsCard.json';
+import projectData from '../../data/projectsCard.json';
+import { Link } from 'react-router-dom';
 
-export default function CardProject () {
+const CardProject = () => {
+
+    const projectsCard = Array.isArray(projectData) ? projectData : [projectData];
+
     return (
         <section className="projects section" id="projects">
             <h2 className="section__title-1">
@@ -16,9 +20,9 @@ export default function CardProject () {
                     alt={`Image du projet ${project.title} d'OpenClassrooms`}
                     className="projects__img"
                     />
-                    <a href={project.pageLink} className="projects__button button">
-                    <i className="ri-arrow-right-up-line"></i>Voir plus
-                    </a>
+                    <Link to={`/project/${project.id}`} className="projects__button button">
+                        <i className="ri-arrow-right-up-line"></i>Voir plus
+                    </Link>
                 </div>
                 <div className="projects__content">
                     <h3 className="projects__subtitle">{project.subtitle}</h3>
@@ -53,3 +57,5 @@ export default function CardProject () {
         </section>
     );
 };
+
+export default CardProject;
