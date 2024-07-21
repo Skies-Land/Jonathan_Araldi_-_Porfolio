@@ -1,10 +1,16 @@
-import React from 'react'
-import projectData from '../../data/projectsCard.json';
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
+import { projectsGetAll } from '../../service/getData';
 
 const CardProject = () => {
 
-    const projectsCard = Array.isArray(projectData) ? projectData : [projectData];
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        projectsGetAll()
+        .then(setProjects)
+        .catch(console.error);
+    }, []);
 
     return (
         <section className="projects section" id="projects">
@@ -12,7 +18,7 @@ const CardProject = () => {
             <span>Projets.</span>
             </h2>
             <div className="projects__container container grid">
-            {projectsCard.map((project) => (
+            {projects.map((project) => (
                 <article key={project.id} className="projects__card">
                 <div className="projects__image">
                     <img
@@ -20,7 +26,7 @@ const CardProject = () => {
                     alt={`Image du projet ${project.title} d'OpenClassrooms`}
                     className="projects__img"
                     />
-                    <Link to={`/project/${project.id}`} className="projects__button button">
+                    <Link to={`/projet/${project.id}`} className="projects__button button">
                         <i className="ri-arrow-right-up-line"></i>Voir plus
                     </Link>
                 </div>

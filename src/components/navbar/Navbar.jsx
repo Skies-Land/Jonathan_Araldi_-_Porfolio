@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({ showMenu, setShowMenu }) => {
+const Navbar = ({ showMenu, setShowMenu, closeMenu }) => {
     return (
         <nav className="nav container">
             <Link to="/" className="nav__logo">
@@ -16,19 +16,19 @@ const Navbar = ({ showMenu, setShowMenu }) => {
 
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <Link to="/" className="nav__link active-link" aria-label="Accueil de mon portfolio">Accueil</Link>
+                        <Link to="/" onClick={closeMenu} className="nav__link active-link" aria-label="Accueil de mon portfolio">Accueil</Link>
                     </li>
 
                     <li className="nav__item">
-                        <Link to="/about" className="nav__link" aria-label="À propos de moi">À propos</Link>
+                        <Link to="/about" onClick={closeMenu} className="nav__link" aria-label="À propos de moi">À propos</Link>
                     </li>
 
                     <li className="nav__item">
-                        <a href="/#projects" className="nav__link" aria-label="Voir mes projets">Projets</a>
+                        <a href="/#projects" onClick={closeMenu} className="nav__link" aria-label="Voir mes projets">Projets</a>
                     </li>
 
                     <li className="nav__item">
-                        <Link to="/contact" className="nav__link nav__link-button" aria-label="Contactez-moi">Contact</Link>
+                        <Link to="/contact" onClick={closeMenu} className="nav__link nav__link-button" aria-label="Contactez-moi">Contact</Link>
                     </li>
                 </ul>
 

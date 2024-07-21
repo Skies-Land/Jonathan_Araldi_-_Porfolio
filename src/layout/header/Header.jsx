@@ -19,9 +19,13 @@ export default function Header() {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    const closeMenu = () => {
+        setShowMenu(false);
+    };
+
     return (
         <header className={`header ${shadowHeader ? 'shadow-header' : ''}`} id="header">
-            <Navbar showMenu={showMenu} setShowMenu={setShowMenu} />
+            <Navbar showMenu={showMenu} setShowMenu={setShowMenu} closeMenu={closeMenu} />
         </header>
     );
 }

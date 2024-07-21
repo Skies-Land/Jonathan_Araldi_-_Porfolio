@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import faqData from '../../data/faq.json';
+import faqData from '../../../public/faq.json';
 
 export default function Faq() {
     const [faqs, setFaqs] = useState(null);

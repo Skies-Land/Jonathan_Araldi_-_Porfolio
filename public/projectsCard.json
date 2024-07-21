@@ -1,0 +1,512 @@
+[
+    {
+        "id": "booki",
+        "title": "Booki",
+        "title2": "Projet Booki",
+        "subtitle": "Projet formation",
+        "description": "Création d'une landing page d'une agence de voyage avec HTML & CSS.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/booki/booki-0.webp",
+        "githubLink": "https://github.com/Skies-Land/Projet_3_OpenClassrooms_-_Booki",
+        "previewLink": "https://skies-land.github.io/Projet_3_OpenClassrooms_-_Booki/",
+        "slides": [
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/booki/booki-1.jpg?raw=true", "alt": "Image 1 du projet Booki" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/booki/booki-2.jpg?raw=true", "alt": "Image 2 du projet Booki" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/booki/booki-3.jpg?raw=true", "alt": "Image 3 du projet Booki" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": "L’entreprise Booki souhaite développer un site internet qui permette aux usagers de trouver des hébergements et des activités dans la ville de leur choix.\n\nMa mission a été d'intégrer l'interface du site (responsive pour les versions Desktop - Tablette - Mobile) avec du code HTML et CSS."
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": "- Implémenter une interface responsive avec HTML et CSS\n\n- Installer un environnement de développement front-end\n\n- Intégrer du contenu conformément à une maquette Figma en HTML et CSS"
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "En me plongeant dans l'art de l'intégration et le découpage précise des maquettes Figma avec HTML et CSS, et en configurant mon environnement de développement, j'ai posé les bases nécessaires pour commencer ma carrière de développeur front-end.",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg", "alt": "Image CSS", "text": "CSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/figma.svg", "alt": "Image Figma", "text": "Figma" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg", "alt": "Image Git", "text": "Git" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "https://github.com/Skies-Land/Projet_3_OpenClassrooms_-_Booki",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "https://skies-land.github.io/Projet_3_OpenClassrooms_-_Booki/",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "ohmyfood",
+        "title": "Ohmyfood",
+        "title2": "Projet Ohmyfood",
+        "subtitle": "Projet formation",
+        "description": "Développement d'un site qui répertorie les menus de restaurants gastronomiques.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/ohmyfood/ohmyfood-0.webp",
+        "githubLink": "https://github.com/Skies-Land/Projet_4_OpenClassrooms_-_OhMyFood",
+        "previewLink": "https://skies-land.github.io/Projet_4_OpenClassrooms_-_OhMyFood/",
+        "slides": [
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/ohmyfood/ohmyfood-1.jpg?raw=true", "alt": "Image 1 du projet Ohmyfood" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/ohmyfood/ohmyfood-2.jpg?raw=true", "alt": "Image 2 du projet Ohmyfood" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/ohmyfood/ohmyfood-3.jpg?raw=true", "alt": "Image 3 du projet Ohmyfood" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Améliorez l’interface d’un site mobile avec des animation CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": "Ohmyfood une jeune start-up qui voudrait s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite désormais faire sa place à Paris. L’équipe commerciale a déjà réussi à convaincre 4 restaurateurs d’utiliser la plateforme Ohmyfood.\n\nMa mission a été de développer un site multi page en mobile-first qui répertorie les menus de restaurants gastronomiques incluant des animations."
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": "- Intégrer une maquette en mobile-first\n\n- Mettre en œuvre des animation CSS\n\n- Versionner son projet avec Git et GitHub"
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "Prise de décision (recommandation de mon mentor) : J’ai rendu l’interface du site réactif en fonction des préférences de couleur de l’utilisateur avec la fonctionnalité CSS 'prefers-color-scheme'. En intégrant des animations CSS, je donne vie à mon site web tout en offrant une expérience utilisateur plus immersive. Ce projet a permis de mieux comprendre l'intérêt de fragmenter son code CSS avec l'utilisation d'un pré-processeur afin de rendre son code CSS modulaire et facilement maintenable.",
+            "additional_info": {
+                "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme",
+                "link_text": "Plus d'info sur prefers-color-scheme"
+            },
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg", "alt": "Image CSS", "text": "CSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/nodejs.svg", "alt": "Image Node.js", "text": "Node.js"},
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/sass.svg", "alt": "Image SASS", "text": "SASS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/figma.svg", "alt": "Image Figma", "text": "Figma" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg", "alt": "Image Git", "text": "Git" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "https://github.com/Skies-Land/Projet_4_OpenClassrooms_-_OhMyFood",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "https://skies-land.github.io/Projet_4_OpenClassrooms_-_OhMyFood/",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "print it",
+        "title": "Print It",
+        "title2": "Projet Print It",
+        "subtitle": "Projet formation",
+        "description": "Développement d'un carrousel d'image pour la page d'accueil d'une entreprise d'imprimerie.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/print-it/print-it-0.webp",
+        "githubLink": "https://github.com/Skies-Land/Projet_5_OpenClassrooms_-_Print_it",
+        "previewLink": "https://skies-land.github.io/Projet_5_OpenClassrooms_-_Print_it/",
+        "slides": [
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/print-it/print-it-1.jpg?raw=true", "alt": "Image 1 du projet Print It" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/print-it/print-it-2.jpg?raw=true", "alt": "Image 2 du projet Print It" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/print-it/print-it-3.jpg?raw=true", "alt": "Image 3 du projet Print It" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": ""
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": ""
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image HTML", "text": "HTML" },
+            { "src": "", "alt": "Image CSS", "text": "CSS" },
+            { "src": "", "alt": "Image Figma", "text": "Figma" },
+            { "src": "", "alt": "Image Git", "text": "Git" },
+            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "sophie bluel",
+        "title": "Sophie Bluel",
+        "title2": "Projet Sophie Bluel",
+        "subtitle": "Projet formation",
+        "description": "Implémentation de la partie Front-End d'un site de portfolio d'une archistecte d'intérieur.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/sophie-bluel/sophie-bluel-0.webp",
+        "githubLink": "https://github.com/Skies-Land/Projet_6_OpenClassrooms_-_Portfolio_Sophie_Bluel",
+        "previewLink": "",
+        "slides": [
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/sophie-bluel/sophie-bluel-1.jpg?raw=true", "alt": "Image 1 du projet Sophie Bluel" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/sophie-bluel/sophie-bluel-2.jpg?raw=true", "alt": "Image 2 du projet Sophie Bluel" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/sophie-bluel/sophie-bluel-3.jpg?raw=true", "alt": "Image 3 du projet Sophie Bluel" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": ""
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": ""
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image HTML", "text": "HTML" },
+            { "src": "", "alt": "Image CSS", "text": "CSS" },
+            { "src": "", "alt": "Image Figma", "text": "Figma" },
+            { "src": "", "alt": "Image Git", "text": "Git" },
+            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "menu maker",
+        "title": "Menu Maker",
+        "title2": "Projet Menu Maker",
+        "subtitle": "Projet formation",
+        "description": "Planification du développement du site web, sans intervenir directement dans le codage.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/menu-maker/menu-maker-0.webp",
+        "githubLink": "",
+        "previewLink": "",
+        "slides": [
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/menu-maker/menu-maker-1.png?raw=true", "alt": "Image 1 du projet Menu Make" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/menu-maker/menu-maker-2.jpg?raw=true", "alt": "Image 2 du projet Menu Make" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/menu-maker/menu-maker-3.jpg?raw=true", "alt": "Image 3 du projet Menu Make" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": ""
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": ""
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image HTML", "text": "HTML" },
+            { "src": "", "alt": "Image CSS", "text": "CSS" },
+            { "src": "", "alt": "Image Figma", "text": "Figma" },
+            { "src": "", "alt": "Image Git", "text": "Git" },
+            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "kasa",
+        "title": "Kasa",
+        "title2": "Projet Kasa",
+        "subtitle": "Projet formation",
+        "description": "Création d'une application web de location immobilière avec React & React-router.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/kasa/kasa-0.webp",
+        "githubLink": "https://github.com/Skies-Land/Projet_8_OpenClassrooms_-_Kasa",
+        "previewLink": "",
+        "slides": [
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/kasa/kasa-1.jpg?raw=true", "alt": "Image 1 du projet Kasa" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/kasa/kasa-2.jpg?raw=true", "alt": "Image 2 du projet Kasa" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/kasa/kasa-3.jpg?raw=true", "alt": "Image 3 du projet Kasa" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": ""
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": ""
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image HTML", "text": "HTML" },
+            { "src": "", "alt": "Image CSS", "text": "CSS" },
+            { "src": "", "alt": "Image Figma", "text": "Figma" },
+            { "src": "", "alt": "Image Git", "text": "Git" },
+            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "nina carducci",
+        "title": "Nina Carducci",
+        "title2": "Projet Nina Carducci",
+        "subtitle": "Projet formation",
+        "description": "Optimisation du référencement (SEO) et des performances d'un site de photographe.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/nina-carducci/nina-carducci-0.webp",
+        "githubLink": "https://github.com/Skies-Land/Projet_9_OpenClassrooms_-_Nina_Carducci",
+        "previewLink": "https://skies-land.github.io/Projet_9_OpenClassrooms_-_Nina_Carducci/",
+        "slides": [
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/nina-carducci/nina-carducci-1.jpg?raw=true", "alt": "Image 1 du projet Nina Carducci" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/nina-carducci/nina-carducci-2.jpg?raw=true", "alt": "Image 2 du projet Nina Carducci" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/nina-carducci/nina-carducci-3.jpg?raw=true", "alt": "Image 3 du projet Nina Carducci" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": ""
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": ""
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image HTML", "text": "HTML" },
+            { "src": "", "alt": "Image CSS", "text": "CSS" },
+            { "src": "", "alt": "Image Figma", "text": "Figma" },
+            { "src": "", "alt": "Image Git", "text": "Git" },
+            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "724events",
+        "title": "724Events",
+        "title2": "Projet 724Events",
+        "subtitle": "Projet formation",
+        "description": "Debogage d'un site d'une agence d'événementiel.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/724event/724events-0.webp",
+        "githubLink": "https://github.com/Skies-Land/Projet_10_OpenClassrooms_-_724_events",
+        "previewLink": "",
+        "slides": [
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/724event/724events-1.jpg?raw=true", "alt": "Image 1 du projet 724Events" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/724event/724events-2.jpg?raw=true", "alt": "Image 2 du projet 724Events" },
+            { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/724event/724events-3.jpg?raw=true", "alt": "Image 3 du projet 724Events" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": ""
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": ""
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image HTML", "text": "HTML" },
+            { "src": "", "alt": "Image CSS", "text": "CSS" },
+            { "src": "", "alt": "Image Figma", "text": "Figma" },
+            { "src": "", "alt": "Image Git", "text": "Git" },
+            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "argent bank",
+        "title": "Argent Bank",
+        "title2": "Projet Argent Bank",
+        "subtitle": "Projet formation",
+        "description": "Implémentation du front-end pour une application bancaire avec React & Redux pour gérer l'état de l'application.",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/argent-bank/argent-bank-0.webp",
+        "githubLink": "https://github.com/Skies-Land/Projet_11_OpenClassrooms_-_ArgentBank",
+        "previewLink": "",
+        "slides": [
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/argent-bank/argent-bank-1.webp", "alt": "Image 1 du projet Argent Bank" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/argent-bank/argent-bank-2.webp", "alt": "Image 2 du projet Argent Bank" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/argent-bank/argent-bank-3.webp", "alt": "Image 3 du projet Argent Bank" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+            },
+            {
+                "id": "second",
+                "title": "Mission",
+                "description": ""
+            },
+            {
+                "id": "third",
+                "title": "Compétences évaluées",
+                "description": ""
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image HTML", "text": "HTML" },
+            { "src": "", "alt": "Image CSS", "text": "CSS" },
+            { "src": "", "alt": "Image Figma", "text": "Figma" },
+            { "src": "", "alt": "Image Git", "text": "Git" },
+            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+        ],
+        "buttons": [
+            {
+                "href": "",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    }
+]

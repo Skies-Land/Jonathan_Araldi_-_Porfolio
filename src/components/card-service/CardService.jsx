@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { servicesCard } from '../../data/servicesCard.json';
+import { servicesCard } from '../../../public/servicesCard.json';
 
 export default function CardService() {
   const [activeModal, setActiveModal] = useState(null);
