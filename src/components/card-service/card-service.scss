@@ -1,12 +1,9 @@
 /*=============== VARIABLES ===============*/
-@import "../../utils/variables.scss";
-
-/*=============== MIXINS ===============*/
-@import "../../utils/mixins.scss";
+@import "../../scss/variables.scss";
 
 /*=============== SERVICES ===============*/
 .services {
-    background-color: $container-color;
+    background-color: $body-color;
 }
 
 .services__container {
@@ -78,91 +75,12 @@
     margin-bottom: 3rem;
 }
 
-/* Modal */
-.services__modal {
-    position: fixed;
-    inset: 0;
-    background-color: hsla(0, 0%, 0%, 0.75);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px); /* For Safari */
-    display: grid;
-    place-items: center;
-    padding: 2rem 1.5rem;
-    opacity: 0;
-    visibility: hidden;
-    z-index: $z-modal;
-    transition: opacity 0.4s, visibility 0.4s;
-}
-
-.services__modal-content {
-    max-width: 420px;
-    position: fixed;
-    background-color: $container-color;
-    border-radius: 0.75rem;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 24px;
-    padding: 3.5rem 1.5rem;
-    border-bottom: 6px solid $first-color;
-    overflow: auto;
-}
-
-.services__modal-content::-webkit-scrollbar {
-    width: 0.6rem;
-}
-
-.services__modal-content::-webkit-scrollbar-thumb {
-    background-color: $text-color-light;
-}
-
-.services__modal-title {
-    font-size: $h2-font-size;
-    margin-bottom: 2.5rem;
-}
-
-.services__modal-list {
-    margin-left: 1rem;
-
-}
-
-.services__modal-item {
-    text-align: initial;
-    list-style: outside;
-}
-
-.services__modal-item::marker {
-    color: $first-color;
-}
-
-.services__modal-close {
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    font-size: 1.5rem;
-    color: $first-color;
-    cursor: pointer;
-}
-
-/* Active modal */
-.active-modal {
-    opacity: 1;
-    visibility: visible;
-}
-
 /*=============== MEDIA QUERIES ===============*/
-/* For small devices */
-@media screen and (max-width: 320px) {
-    .services__modal {
-        padding-inline: 0.5rem;
-    }
-}
-
 /* For medium devices */
 @media screen and (min-width: 576px) {
     .services__container {
         grid-template-columns: 320px;
         justify-content: center;
-    }
-    .services__modal-content {
-        width: 400px;
     }
 }
 
@@ -195,12 +113,5 @@
     }
     .services__card:hover .services__border {
         transform: translate(1.25rem, 1.25rem);
-    }
-    .services__modal-content {
-        max-height: 480px;
-        padding: 5.5rem 2rem;
-    }
-    .services__modal-close {
-        font-size: 2rem;
     }
 }

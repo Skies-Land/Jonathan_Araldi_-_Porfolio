@@ -1,0 +1,11 @@
+/*=============== VARIABLES ===============*/
+@import "../../scss/variables.scss";
+
+/*=============== ACTIVE LINK ===============*/
+.active-link {
+    color: $first-color;
+}
+
+.active-link::after {
+    width: 25%;
+}

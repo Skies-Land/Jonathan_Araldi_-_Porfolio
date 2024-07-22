@@ -1,0 +1,6 @@
+/*=============== TILT EFFECT ===============*/
+.tilt-effect {
+    display: inline-block;
+    transform-style: preserve-3d;
+    will-change: transform;
+}

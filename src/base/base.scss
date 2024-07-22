@@ -1,8 +1,8 @@
 /*=============== VARIABLES ===============*/
-@import "../utils/variables.scss";
+@import "../scss/variables.scss";
 
 /*=============== MIXINS ===============*/
-@import "../utils/mixins.scss";
+@import "../scss/mixins.scss";
 
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
@@ -162,7 +162,6 @@ img {
         padding-block: 7rem 2rem;
     }
 
-    
     .section__title-1::after,
     .section__title-2::after {
         width: 70px;

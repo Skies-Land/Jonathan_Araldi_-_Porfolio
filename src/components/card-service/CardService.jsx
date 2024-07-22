@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { servicesCard } from '../../../public/servicesCard.json';
+import ModalService from '../../features/modal-service/ModalService';
 
 export default function CardService() {
   const [activeModal, setActiveModal] = useState(null);
@@ -27,14 +28,13 @@ export default function CardService() {
   }, []); 
 
   return (
-    <section className="services section" id="section">
+    <section className="services section" id="services">
       <h2 className="section__title-2">
         <span>Services.</span>
       </h2>
 
       <div className="services__container container grid">
         {servicesCard.map((service, index) => (
-
           <article className="services__card" key={index}>
             <div className="services__border"></div>
 
@@ -52,33 +52,19 @@ export default function CardService() {
 
               <button
                 className="services__button button__service"
-                onClick={() => openModal(index)}>
+                onClick={() => openModal(index)}
+              >
                 En savoir plus
               </button>
 
               {activeModal === index && (
-                <div className="services__modal active-modal">
-                  <div className="services__modal-content">
-                    <i
-                      className="ri-close-line services__modal-close"
-                      onClick={closeModal}
-                    ></i>
-
-                    <h2 className="services__modal-title">{service.title}</h2>
-
-                    <ul className="services__modal-list grid">
-                      {service.modalContent.map((item, idx) => (
-                        <li className="services__modal-item" key={idx}>
-                          {item}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
+                <ModalService
+                  service={service}
+                  onClose={closeModal}
+                />
               )}
             </div>
           </article>
-
         ))}
       </div>
     </section>

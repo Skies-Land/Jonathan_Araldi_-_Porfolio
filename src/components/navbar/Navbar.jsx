@@ -1,13 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import ActiveLink from '../../features/active-link/ActiveLink';
 
 const Navbar = ({ showMenu, setShowMenu, closeMenu }) => {
     return (
         <nav className="nav container">
-            <Link to="/" className="nav__logo">
+            <NavLink to="/" className="nav__logo">
                 <span className="nav__logo-circle">J</span>
                 <span className="nav__logo-name">Jonathan Araldi.</span>
-            </Link>
+            </NavLink>
 
             <div className={`nav__menu ${showMenu ? 'show-menu' : ''}`} id="nav-menu">
                 <span className="nav__title">Menu</span>
@@ -16,19 +17,23 @@ const Navbar = ({ showMenu, setShowMenu, closeMenu }) => {
 
                 <ul className="nav__list">
                     <li className="nav__item">
-                        <Link to="/" onClick={closeMenu} className="nav__link active-link" aria-label="Accueil de mon portfolio">Accueil</Link>
+                        <ActiveLink to="/" isHome onClick={closeMenu} aria-label="Accueil de mon portfolio">Accueil</ActiveLink>
                     </li>
 
                     <li className="nav__item">
-                        <Link to="/about" onClick={closeMenu} className="nav__link" aria-label="À propos de moi">À propos</Link>
+                        <ActiveLink to="#about" onClick={closeMenu} aria-label="À propos de moi">À propos</ActiveLink>
                     </li>
 
                     <li className="nav__item">
-                        <a href="/#projects" onClick={closeMenu} className="nav__link" aria-label="Voir mes projets">Projets</a>
+                        <ActiveLink to="#services" onClick={closeMenu} aria-label="Mes services">Services</ActiveLink>
                     </li>
 
                     <li className="nav__item">
-                        <Link to="/contact" onClick={closeMenu} className="nav__link nav__link-button" aria-label="Contactez-moi">Contact</Link>
+                        <ActiveLink to="#projects" onClick={closeMenu} aria-label="Voir mes projets">Projets</ActiveLink>
+                    </li>
+
+                    <li className="nav__item">
+                        <ActiveLink to="#contact" onClick={closeMenu} className="nav__link nav__link-button" aria-label="Contactez-moi">Contact</ActiveLink>
                     </li>
                 </ul>
 

@@ -5,13 +5,13 @@
             "description": "Création d'interfaces web attrayant et fonctionnel avec des interactions dynamiques grâce à des animations CSS et des bibliothèques telles que React pour offrir une expérience utilisateur fluide.",
             "icon": "ri-layout-4-line",
             "modalContent": [
-            "Intégration d'éléments sur une page web conformément à une maquette Figma avec HTML et CSS.",
-            "Mise en œuvre d'animations CSS.",
-            "Développement d'interface web avec SASS.",
-            "Développement d'éléments grâce à des composants React.",
-            "Configuration de la navigation entre différentes pages de l'application React avec React Router.",
-            "Optimisation des performances d'un site web.",
-            "Déploiement en ligne d'un site."
+                "Intégration d'éléments sur une page web conformément à une maquette Figma avec HTML et CSS.",
+                "Mise en œuvre d'animations CSS.",
+                "Développement d'interface web avec SASS.",
+                "Développement d'éléments grâce à des composants React.",
+                "Configuration de la navigation entre différentes pages de l'application React avec React Router.",
+                "Optimisation des performances d'un site web.",
+                "Déploiement en ligne d'un site."
             ]
         },
         {
@@ -19,11 +19,11 @@
             "description": "Installation et configuration d'environnement de développement, versionnage de code avec Git et GitHub. Utilisation d'outils de gestion de projet Kanban et outil de veille.",
             "icon": "ri-code-box-line",
             "modalContent": [
-            "Versionnage d'un projet avec Git et GitHub.",
-            "Programmation en utilisant les fondamentaux de JavaScript.",
-            "Manipulation des éléments du DOM avec JavaScript.",
-            "Surveillance du déroulement du projet grâce à un outil de gestion de projet (Tableau Kanban).",
-            "Connaissance de la méthode Agile."
+                "Versionnage d'un projet avec Git et GitHub.",
+                "Programmation en utilisant les fondamentaux de JavaScript.",
+                "Manipulation des éléments du DOM avec JavaScript.",
+                "Surveillance du déroulement du projet grâce à un outil de gestion de projet (Tableau Kanban).",
+                "Connaissance de la méthode Agile."
             ]
         },
         {
@@ -31,10 +31,10 @@
             "description": "Déboguer de problèmes à l'aide d'outils de développement. Rédaction des scénarios de test pour assurer la qualité du site et de mise en place des interactions avec le back-end via des appels API et des configurations de route.",
             "icon": "ri-tools-line",
             "modalContent": [
-            "Débogage d'un site web grâce aux Chrome DevTools.",
-            "Configuration des routes API pour la communication client / serveur.",
-            "Implémentation de la gestion des données avec Redux pour assurer le fonctionnement du front.",
-            "Affichage des données du back end sur l'interface via des appels API."
+                "Débogage d'un site web grâce aux Chrome DevTools.",
+                "Configuration des routes API pour la communication client / serveur.",
+                "Implémentation de la gestion des données avec Redux pour assurer le fonctionnement du front.",
+                "Affichage des données du back end sur l'interface via des appels API."
             ]
         }
     ]

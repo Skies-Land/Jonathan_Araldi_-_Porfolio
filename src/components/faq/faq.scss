@@ -1,9 +1,9 @@
 /*=============== VARIABLES ===============*/
-@import "../../utils/variables.scss";
+@import "../../scss/variables.scss";
 
 /*=============== FAQ ===============*/
 .faq {
-    background-color: $container-color;
+    background-color: $body-color;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

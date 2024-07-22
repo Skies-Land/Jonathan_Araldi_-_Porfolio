@@ -1,8 +1,9 @@
-import React from 'react';
-import { FaLinkedin, FaGithub, FaCodepen } from 'react-icons/fa';
-import profilImage from '../../assets/image/profil/home-profil.jpg';
-import arrowImage from '../../assets/image/curved-arrow.svg';
-import linesImage from '../../assets/image/random-lines.svg';
+import React from "react";
+import { FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import profilImage from "../../assets/image/profil/home-profil.jpg";
+import arrowImage from "../../assets/image/curved-arrow.svg";
+import linesImage from "../../assets/image/random-lines.svg";
+import TiltEffect from "../../features/tilt-effect/TiltEffect";
 
 export default function HomeSection() {
   return (
@@ -12,24 +13,63 @@ export default function HomeSection() {
 
         <div className="home__profil">
           <div className="home__image">
-            <img src={profilImage} alt="Image de Jonathan" className="home__img" />
-            <div className="home__shadow"></div>
+            <TiltEffect
+              options={{
+                max: 15,
+                perspective: 1000,
+                scale: 1,
+                speed: 300,
+                easing: "cubic-bezier(.03,.98,.52,.99)",
+              }}
+            >
+              <img
+                src={profilImage}
+                alt="Image de Jonathan"
+                className="home__img"
+              />
+              <div className="home__shadow"></div>
+            </TiltEffect>
 
-            <img src={arrowImage} alt="Image de flèche" className="home__arrow" />
-            <img src={linesImage} alt="Image de lignes" className="home__line" />
-
+            <img
+              src={arrowImage}
+              alt="Image de flèche"
+              className="home__arrow"
+            />
+            <img
+              src={linesImage}
+              alt="Image de lignes"
+              className="home__line"
+            />
           </div>
 
           <div className="home__social">
-            <a href="https://www.linkedin.com/in/jonathan-araldi/" target="_blank" rel="noopener noreferrer" className="home__social-link" aria-label="Profil LinkedIn">
+            <a
+              href="https://www.linkedin.com/in/jonathan-araldi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="home__social-link"
+              aria-label="Profil LinkedIn"
+            >
               <FaLinkedin />
             </a>
 
-            <a href="https://github.com/Skies-Land" target="_blank" rel="noopener noreferrer" className="home__social-link" aria-label="Profil GitHub">
+            <a
+              href="https://github.com/Skies-Land"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="home__social-link"
+              aria-label="Profil GitHub"
+            >
               <FaGithub />
             </a>
 
-            <a href="https://codepen.io/Skies-Land" target="_blank" rel="noopener noreferrer" className="home__social-link" aria-label="Profil CodePen">
+            <a
+              href="https://codepen.io/Skies-Land"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="home__social-link"
+              aria-label="Profil CodePen"
+            >
               <FaCodepen />
             </a>
           </div>
@@ -37,12 +77,12 @@ export default function HomeSection() {
 
         <div className="home__info">
           <p className="home__description">
-            <b>Développeur Front-end</b>, <br /> junior passionné par les nouvelles technologies, 
-            diplômé et prêt à innover, je cherche à apporter ma passion et mes compétences 
-            à une entreprise dynamique.
+            <b>Développeur Front-end</b>, <br /> junior passionné par les
+            nouvelles technologies, diplômé et prêt à innover, je cherche à
+            apporter ma passion et mes compétences à une entreprise dynamique.
           </p>
 
-          <a href="#section" className="home__scroll">
+          <a href="#about" className="home__scroll">
             <div className="home__scroll-box">
               <i className="ri-arrow-down-s-line"></i>
             </div>

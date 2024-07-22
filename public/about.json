@@ -1,0 +1,91 @@
+{
+    "profile": {
+        "name": "Jonathan Araldi",
+        "title": "À propos de moi.",
+        "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/about-profil.jpg?raw=true",
+        "alt": "Image de Jonathan",
+        "linkedin": "https://www.linkedin.com/in/jonathan-araldi/"
+        },
+        "skills": [
+        {
+            "name": "HTML",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg",
+            "alt": "Image HTML"
+        },
+        {
+            "name": "CSS",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg",
+            "alt": "Image CSS"
+        },
+        {
+            "name": "JavaScript",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/javascript.svg",
+            "alt": "Image JavaScript"
+        },
+        {
+            "name": "SASS",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/sass.svg",
+            "alt": "Image SASS"
+        },
+        {
+            "name": "Node.js",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/nodejs.svg",
+            "alt": "Image Node.js"
+        },
+        {
+            "name": "React",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/react.svg",
+            "alt": "Image React"
+        },
+        {
+            "name": "Redux",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/redux.svg",
+            "alt": "Image Redux"
+        },
+        {
+            "name": "Git",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg",
+            "alt": "Image Git"
+        },
+        {
+            "name": "GitHub",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg",
+            "alt": "Image GitHub"
+        },
+        {
+            "name": "CodePen",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/codepen.svg",
+            "alt": "Image CodePen"
+        },
+        {
+            "name": "Figma",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/figma.svg",
+            "alt": "Image Figma"
+        },
+        {
+            "name": "Windows",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/windows.svg",
+            "alt": "Image Windows"
+        },
+        {
+            "name": "macOS",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/apple.svg",
+            "alt": "Image macOs"
+        },
+        {
+            "name": "VSCode",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/vscode.svg",
+            "alt": "Image VS Code"
+        },
+        {
+            "name": "Notion",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/notion.svg",
+            "alt": "Image Notion"
+        },
+        {
+            "name": "Slack",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/slack.svg",
+            "alt": "Image Slack"
+        }
+    ]
+}

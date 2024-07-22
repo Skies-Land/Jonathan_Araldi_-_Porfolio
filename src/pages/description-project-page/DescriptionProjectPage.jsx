@@ -5,7 +5,7 @@ import Slider from '../../components/slider/Slider';
 import Collapse from '../../components/collapse/Collapse';
 import SkillsIcon from '../../components/skills-icon/SkillsIcon';
 import Testimonial from '../../components/testimonial/Testimonial';
-import ButtonService from '../../components/button-service/ButtonService';
+import ButtonService from '../../components/buttons/ButtonService';
 
 export default function DescriptionProjectPage() {
     const { projetId } = useParams();

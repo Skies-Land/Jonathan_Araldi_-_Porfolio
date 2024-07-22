@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Collapse = ({ collapses }) => {
-    // Fonction pour convertir les sauts de ligne \n d'un fichier JSON en éléments <br />
+
     const renderDescriptionWithLineBreaks = (description) => {
         return description.split('\n').map((line, index, array) => (
             <React.Fragment key={index}>

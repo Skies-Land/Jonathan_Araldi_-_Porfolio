@@ -1,8 +1,5 @@
 /*=============== VARIABLES ===============*/
-@import "../../utils/variables.scss";
-
-/*=============== MIXINS ===============*/
-@import "../../utils/mixins.scss";
+@import "../../scss/variables.scss";
 
 /*=============== NAVBAR ===============*/
 .nav {
@@ -136,14 +133,14 @@
     top: 0;
 }
 
-/* Active link */
-.active-link {
-    color: $first-color;
-}
+// /* Active link */
+// .active-link {
+//     color: $first-color;
+// }
 
-.active-link::after {
-    width: 25%;
-}
+// .active-link::after {
+//     width: 25%;
+// }
 
 /*=============== MEDIA QUERIES ===============*/
 /* For large devices */

@@ -1,8 +1,7 @@
 /*=============== VARIABLES ===============*/
-@import "../../utils/variables.scss";
+@import "../../scss/variables.scss";
 
-/*=============== BUTTON ===============*/
-
+/*=============== BUTTON SERVICE ===============*/
 .button, .button__ghost {
     display: flex;
     align-items: center;
@@ -41,4 +40,18 @@
 
 .button__ghost:hover {
     border: 3px solid $first-color;
+}
+
+.button__service {
+    background-color: $black-color;
+    color: $white-color;
+    border-radius: 0.75rem;
+    padding: 1.1rem 1.5rem;
+    font-weight: $font-medium;
+    transition: background-color 0.4s;
+}
+
+.button__service:hover {
+    cursor: pointer;
+    background-color: $first-color;
 }

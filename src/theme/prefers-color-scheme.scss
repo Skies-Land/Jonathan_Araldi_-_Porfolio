@@ -1,5 +1,5 @@
 /*=============== VARIABLES ===============*/
-@import "../utils/variables.scss";
+@import "../scss/variables.scss";
 
 /*========== 🌙 DARK MOD 🌙 ==========*/
 @media (prefers-color-scheme: dark) {
@@ -102,12 +102,47 @@
     .home__scroll-box {
         background-color: $black-color-dark;
     }
-    /*=== SERVICES ===*/
-    .services {
+    /*=== ABOUT ===*/
+    .about {
         background-color: $container-color-dark;
     }
-    .services__content {
+    .about__img {
+        border: 4px solid $text-color-dark;
+    }
+    .about__shadow {
         background-color: $body-color-dark;
+        border-bottom: 4px solid $first-color-dark;
+    }
+    .about__line {
+        filter: none;
+    }
+    .about__box {
+        background-color: $first-color-dark;
+    }
+    .about__description {
+        color: $title-color-dark;
+    }
+    .about__description::after {
+        background-color: $title-color-dark;
+    }
+    .about__description-link {
+        color: $first-color-dark;
+    }
+    .about__skills-title {
+        color: $text-color-dark;
+    }
+    .about__skills-hover-text {
+        color: $text-color-dark;
+    }
+    .about__skills-img .about__skills-hover-text::after {
+        background: $first-color-dark;
+    }
+    /*=== SERVICES ===*/
+    .services {
+        background-color: $body-color-dark
+    }
+    .services__content {
+        background-color: $container-color-dark;
         border: 4px solid $black-color-dark;
     }
     .services__border {
@@ -123,7 +158,7 @@
         color: $text-color-dark;
     }
     .button__service {
-        background-color: $black-color-dark;
+        background-color: $body-color-dark;
     }
     .button__service:hover {
         background-color: $first-color-dark;
@@ -148,6 +183,9 @@
         color: $first-color-dark;
     }
     /*=== PROJECTS ===*/
+    .projects {
+        background-color: $container-color-dark;
+    }
     .projects__img {
         box-shadow: rgba(156, 156, 156, 0.1) 0px 8px 24px;
     }
@@ -227,43 +265,11 @@
     .faq__answer-introduction {
         color: $title-color-dark;
     }
-    .faq__icon {
-        color: white;
-    }
-    /*=== ABOUT ===*/
-    .about {
-        background-color: $container-color-dark;
-    }
-    .about__img {
-        border: 4px solid $text-color-dark;
-    }
-    .about__shadow {
-        background-color: $body-color-dark;
-        border-bottom: 4px solid $first-color-dark;
-    }
-    .about__line {
-        filter: none;
-    }
-    .about__box {
-        background-color: $first-color-dark;
-    }
-    .about__description {
-        color: $title-color-dark;
-    }
-    .about__description::after {
-        background-color: $title-color-dark;
-    }
-    .about__description-link {
+    .faq__answer-introduction {
         color: $first-color-dark;
     }
-    .about__skills-title {
-        color: $text-color-dark;
-    }
-    .about__skills-hover-text {
-        color: $text-color-dark;
-    }
-    .about__skills-img .about__skills-hover-text::after {
-        background: $first-color-dark;
+    .faq__icon {
+        color: white;
     }
     /*=== CONTACT ===*/
     .contact__data {
