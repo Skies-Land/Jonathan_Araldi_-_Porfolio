@@ -1,0 +1,39 @@
+/*=============== ANIMATION SCROLL 'SERVICES' ===============*/
+/* Animation on scroll for the title 'Services' */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-on-scroll-title {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+/* Animation on scroll for the cards */
+@keyframes fade-in {
+    0% { 
+        transform: translatex(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}
+
+.animation-services__card {
+    animation: fade-in 1s ease-in-out backwards;
+    opacity: 1;
+    @for $i from 2 through 4 {
+        &:nth-child(#{$i}){
+            animation-delay: $i * 300ms;
+        }
+    }
+}

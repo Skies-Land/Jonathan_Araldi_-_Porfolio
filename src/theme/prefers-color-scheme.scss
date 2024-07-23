@@ -139,7 +139,7 @@
     }
     /*=== SERVICES ===*/
     .services {
-        background-color: $body-color-dark
+        background-color: $body-color-dark;
     }
     .services__content {
         background-color: $container-color-dark;
@@ -257,7 +257,7 @@
     }
     /*=== FAQ ===*/
     .faq {
-        background-color: $container-color-dark;
+        background-color: $body-color-dark;
     }
     .faq__answer p strong {
         color: $first-color-dark;
