@@ -66,7 +66,7 @@ const About = () => {
             </div>
 
             <div className="about__buttons">
-              <a href={data.profile.contact} className="button">
+              <a href="#contact" className="button">
                 <i className="ri-send-plane-line"></i> Contactez-moi
               </a>
               <a href={DocCV} download className="button">

@@ -33,7 +33,7 @@ const Navbar = ({ showMenu, setShowMenu, closeMenu }) => {
                     </li>
 
                     <li className="nav__item">
-                        <ActiveLink to="#contact" onClick={closeMenu} className="nav__link nav__link-button" aria-label="Contactez-moi">Contact</ActiveLink>
+                        <ActiveLink to="#contact" onClick={closeMenu} aria-label="Contactez-moi">Contact</ActiveLink>
                     </li>
                 </ul>
 

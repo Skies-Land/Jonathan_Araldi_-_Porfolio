@@ -272,8 +272,11 @@
         color: white;
     }
     /*=== CONTACT ===*/
-    .contact__data {
+    .contact {
         background-color: $container-color-dark;
+    }
+    .contact__data {
+        background-color: $body-color-dark;
         border-bottom: 4px solid $first-color-dark;
         box-shadow: 4px 0 8px hsla(0, 0%, 4%, .3);
     }

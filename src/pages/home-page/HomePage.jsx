@@ -4,6 +4,7 @@ import About from '../../components/about/About';
 import CardService from '../../components/card-service/CardService';
 import CardProject from '../../components/card-project/CardProject';
 import Faq from '../../components/faq/Faq';
+import Contact from '../../components/contact/Contact';
 
 function HomePage() {
   return (
@@ -13,6 +14,7 @@ function HomePage() {
       <CardService />
       <CardProject />
       <Faq />
+      <Contact />
     </div>
   )
 }
