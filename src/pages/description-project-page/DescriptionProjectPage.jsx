@@ -51,8 +51,8 @@ export default function DescriptionProjectPage() {
             </h2>
             <Slider slides={project.slides} />
             <Collapse collapses={project.collapses} />
-            <SkillsIcon skills={project.skills} />
             <Testimonial testimonial={project.testimonial} />
+            <SkillsIcon skills={project.skills} />
             <ButtonService buttons={project.buttons} />
         </section>
     );

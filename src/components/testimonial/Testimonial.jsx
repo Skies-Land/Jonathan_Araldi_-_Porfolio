@@ -1,4 +1,5 @@
 import React from 'react';
+import RenderDescriptionWithLineBreaks from '../../features/render-line-break/RenderDescriptionWithLineBreak';
 
 const Testimonial = ({ testimonial }) => {
     return (
@@ -16,11 +17,18 @@ const Testimonial = ({ testimonial }) => {
                     <h2 className="testimonial__name">{testimonial.name}</h2>
 
                     <div className="testimonial__description">
-                        <p>{testimonial.description}</p>
+                        <p><RenderDescriptionWithLineBreaks description={testimonial.description} /></p>
                         {testimonial.additional_info && testimonial.additional_info.link && (
                             <a href={testimonial.additional_info.link} target="_blank" rel="noopener noreferrer" className="testimonial__link">
                                 {testimonial.additional_info.link_text}
                             </a>
+                            
+                        )}
+                        <br></br>{testimonial.additional_info && testimonial.additional_info.link && (
+                            <a href={testimonial.additional_info.link2} target="_blank" rel="noopener noreferrer" className="testimonial__link">
+                                {testimonial.additional_info.link2_text}
+                            </a>
+                            
                         )}
                     </div>
 

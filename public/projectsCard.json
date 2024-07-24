@@ -88,12 +88,13 @@
         ],
         "testimonial": {
             "name": "Jonathan",
-            "description": "Prise de décision (recommandation de mon mentor) : J’ai rendu l’interface du site réactif en fonction des préférences de couleur de l’utilisateur avec la fonctionnalité CSS 'prefers-color-scheme'. En intégrant des animations CSS, je donne vie à mon site web tout en offrant une expérience utilisateur plus immersive. Ce projet a permis de mieux comprendre l'intérêt de fragmenter son code CSS avec l'utilisation d'un pré-processeur afin de rendre son code CSS modulaire et facilement maintenable.",
-            "additional_info": {
-                "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme",
-                "link_text": "Plus d'info sur prefers-color-scheme"
-            },
-            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+            "description": "Prise de décision (recommandation de mon mentor) : J’ai rendu l’interface du site réactif en fonction des préférences de couleur de l’utilisateur avec la fonctionnalité CSS 'prefers-color-scheme'. En intégrant des animations CSS, je donne vie à mon site web tout en offrant une expérience utilisateur plus immersive. \n\n Ce projet a permis de mieux comprendre l'intérêt de fragmenter son code CSS avec l'utilisation d'un pré-processeur afin de rendre son code CSS modulaire et facilement maintenable. \n\n",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true",
+        "additional_info": 
+            {
+                "link_text": "Plus d'info sur => prefers-color-scheme",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"
+            }
         },
         "skills": [
             { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
@@ -135,39 +136,39 @@
             {
                 "id": "first",
                 "title": "Thème",
-                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+                "description": "Premiers pas sur le langage JavaScript"
             },
             {
                 "id": "second",
                 "title": "Mission",
-                "description": ""
+                "description": "Print It une petite entreprise familiale dans l’imprimerie spécialisée dans les besoins d’entreprises de petite et grande taille. De la création de fichiers, à la livraison des impressions, ils mettent tout leur savoir-faire à disposition afin de répondre au mieux aux attentes de leurs clients. \n\n Ma mission a été d'apporter un changement pour la bannière de l’en-tête du site en la dynamisant par un carrousel d’images qui boucle à l’infini. J'ai ajouté une navigation facile avec l'ajout de flèche à chaque extrémité et des bullet points comme indication visuelle d'où nous en sommes dans la navigation du carrousel."
             },
             {
                 "id": "third",
                 "title": "Compétences évaluées",
-                "description": ""
+                "description": "- Programmer en utilisant les fondamentaux de JavaScript"
             }
         ],
         "testimonial": {
             "name": "Jonathan",
-            "description": "",
+            "description": "Mon travail a impliqué la mise à jour du code HTML pour accueillir le carrousel et l'écriture de scripts JavaScript pour permettre son fonctionnement interactif. \n\n Cette expérience m'a permis de voir concrètement comment JavaScript interagit avec le contenu web pour créer des éléments interactifs et attrayants.",
             "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
         },
         "skills": [
-            { "src": "", "alt": "Image HTML", "text": "HTML" },
-            { "src": "", "alt": "Image CSS", "text": "CSS" },
-            { "src": "", "alt": "Image Figma", "text": "Figma" },
-            { "src": "", "alt": "Image Git", "text": "Git" },
-            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg", "alt": "Image CSS", "text": "CSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/javascript.svg", "alt": "Image JavaScript", "text": "JavaScript" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg", "alt": "Image Git", "text": "Git" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg", "alt": "Image GitHub", "text": "GitHub" }
         ],
         "buttons": [
             {
-                "href": "",
+                "href": "https://github.com/Skies-Land/Projet_5_OpenClassrooms_-_Print_it",
                 "text": "Code Source",
                 "icon": "ri-github-line"
             },
             {
-                "href": "",
+                "href": "https://skies-land.github.io/Projet_5_OpenClassrooms_-_Print_it/",
                 "text": "Voir l'aperçu",
                 "icon": "ri-timeline-view"
             }
@@ -191,41 +192,47 @@
             {
                 "id": "first",
                 "title": "Thème",
-                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+                "description": "Créer une page web dynamique pour le site portfolio d'une architecte d'intérieur en utilisant JavaScript et en communiquant avec une API"
             },
             {
                 "id": "second",
                 "title": "Mission",
-                "description": ""
+                "description": "Dans l'agence ArchiWebos, j'ai été envoyé en renfort pour participer à la conception d'un site portfolio d'une architecte d'intérieur. \n\n Ma mission a été de développer : \n - La page de présentation des travaux de l’architecte \n - La page de connexion de l’administrateur du site \n - Une modale permettant de supprimer et l’upload de médias \n\n J'ai utilisé JavaScript pour gérer les interactions des utilisateurs et communiquer avec une API Swagger pour récupérer et envoyer des données."
             },
             {
                 "id": "third",
                 "title": "Compétences évaluées",
-                "description": ""
+                "description": "- Gérer les événements utilisateurs avec JavaScript \n - Manipuler les éléments du DOM avec JavaScript \n - Récupérer les données utilisateurs dans le JavaScript via des formulaires"
+            },
+            {
+                "id": "fourth",
+                "title": "Information pour la démo",
+                "description": "Pour tester ce projet, il vous faut récupérer le backend sur mon repository. \n\n Les identifiants nécessaires pour accéder à la page d'administration sont les suivants : \n\n - EMAIL : sophie.bluel@test.tld \n - PASSWORD : S0phie"
             }
         ],
         "testimonial": {
             "name": "Jonathan",
-            "description": "",
-            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+            "description": "Avoir la capacité de concevoir des pages web dynamique avec JavaScript est fondamental dans le monde du développement web. \n\n J'ai appris à gérer les interactions des utilisateurs et à communiquer avec une API, ce qui m'a permis de donner vie à un site web statique en ajoutant de l'interaction. \n\n Cela me prépare à relever des défis plus avancés et recherchés dans le domaine du développement web. \n\n",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true",
+        "additional_info": 
+            {
+                "link_text": "En savoir plus => sur Swagger",
+                "link": "https://swagger.io/"
+            }
         },
         "skills": [
-            { "src": "", "alt": "Image HTML", "text": "HTML" },
-            { "src": "", "alt": "Image CSS", "text": "CSS" },
-            { "src": "", "alt": "Image Figma", "text": "Figma" },
-            { "src": "", "alt": "Image Git", "text": "Git" },
-            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg", "alt": "Image CSS", "text": "CSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/javascript.svg", "alt": "Image JavaScript", "text": "JavaScript" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/swagger.svg", "alt": "Image Swagger", "text": "Swagger" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg", "alt": "Image Git", "text": "Git" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg", "alt": "Image GitHub", "text": "GitHub" }
         ],
         "buttons": [
             {
-                "href": "",
+                "href": "https://github.com/Skies-Land/Projet_6_OpenClassrooms_-_Portfolio_Sophie_Bluel",
                 "text": "Code Source",
                 "icon": "ri-github-line"
-            },
-            {
-                "href": "",
-                "text": "Voir l'aperçu",
-                "icon": "ri-timeline-view"
             }
         ]
     },
@@ -247,42 +254,33 @@
             {
                 "id": "first",
                 "title": "Thème",
-                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+                "description": "Planifiez le développement du site de votre client"
             },
             {
                 "id": "second",
                 "title": "Mission",
-                "description": ""
+                "description": "Au sein de l’agence Webgencia, notre client Qwenta nous a sollicité pour développé Menu Maker un site permettant aux restaurateurs d’afficher et de mettre en page leurs menus facilement, en quelques clics. \n\n Ma mission a été de planifier le développement du site, sans intervenir directement dans le codage. \n - de préparer une veille informationnelle avec Feedly \n - d'organiser le projet en créant un tableau Kanban comme outil de gestion de projet avec Trello \n - de rédiger les spécifications techniques en m'aidant des spécifications fonctionnelles et des User Stories \n - et de présenter ma solution technique au Product Owner du projet."
             },
             {
                 "id": "third",
                 "title": "Compétences évaluées",
-                "description": ""
+                "description": "- Présenter la solution technique \n - Rédiger les spécifications techniques d’un projet web à partir de besoins fonctionnels \n - Mettre en place une méthode de veille technologique \n - Suivre le déroulement du projet grâce à un outil de gestion de projet"
             }
         ],
         "testimonial": {
             "name": "Jonathan",
-            "description": "",
+            "description": "La planification et la gestion de projets sont des compétences clé dans mon domaine du développement web. \n\n En traduisant les besoins fonctionnels en spécifications techniques et en organisant le travail de développement, je contribue au succès de chaque projet informatique. \n\n Ce projet m'a permis de mieux comprendre l'intérêt de faire une veille informationnelle et d'utiliser un outil de gestion de projet (Kanban) combiné avec la méthode agile.",
             "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
         },
         "skills": [
-            { "src": "", "alt": "Image HTML", "text": "HTML" },
-            { "src": "", "alt": "Image CSS", "text": "CSS" },
-            { "src": "", "alt": "Image Figma", "text": "Figma" },
-            { "src": "", "alt": "Image Git", "text": "Git" },
-            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/figma.svg", "alt": "Image Figma", "text": "Figma" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/notion.svg", "alt": "Image Notion", "text": "Notion" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/agile.svg", "alt": "Image Agile", "text": "Agile" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/trello.svg", "alt": "Image Trello", "text": "Trello" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/feedly.svg", "alt": "Image Feedly", "text": "Feedly" }
         ],
         "buttons": [
-            {
-                "href": "",
-                "text": "Code Source",
-                "icon": "ri-github-line"
-            },
-            {
-                "href": "",
-                "text": "Voir l'aperçu",
-                "icon": "ri-timeline-view"
-            }
+            
         ]
     },
     {
@@ -303,41 +301,47 @@
             {
                 "id": "first",
                 "title": "Thème",
-                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+                "description": "Créez une application web de location immobilière avec React"
             },
             {
                 "id": "second",
                 "title": "Mission",
-                "description": ""
+                "description": "Kasa, une entreprise de location d’appartements entre particuliers en France. La CTO, a lancé une refonte totale pour passer à une stack complète en JavaScript avec Node.js côté back-end, et React côté front-end. \n\n Ma mission a été de développer l’ensemble de l’application avec React, de configurer les routes avec React-router et pour initialiser l'application, j'ai utilisé Vite.js"
             },
             {
                 "id": "third",
                 "title": "Compétences évaluées",
-                "description": ""
+                "description": "- Configurer la navigation entre les pages de l’application avec React-router \n - Développer des éléments de l’interface d’un site web grâce à des composants React \n - Mettre en œuvre des animation CSS \n - Développer une interface avec SASS \n - Initialiser une application avec Vite.js"
             }
         ],
         "testimonial": {
             "name": "Jonathan",
-            "description": "",
+            "description": "Prise de décision (recommandation de mon mentor) : J’ai configuré une méthode permettant de récupérer les données d’un fichier JSON avec fetch pour anticiper l’ajout d’une API distant pour le back-end. \n\n En réalisant ce projet, j'ai pu me familiariser avec React et React-router, combiner avec l'utilisation de SASS pour concevoir des applications web dynamique et réactif. \n\n J'ai organisé les composants React et le style SCSS par dossier qui les caractérise en suivant la logique d'un design pattern similaire au pattern 7.1 en SASS.\n Cela rend beaucoup plus simples la recherche et la gestion de fichiers pour modifier un élément du projet. \n\n",
+            "additional_info": {
+                "link_text": "En savoir plus sur => le pattern 7.1",
+                "link": "https://louisetiennegirard.fr/blog/structurez-sass-avec-le-systeme-7-1",
+                "link2_text": "En savoir plus sur => Vite.js",
+                "link2": "https://vitejs.dev/"
+            },
             "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
         },
         "skills": [
-            { "src": "", "alt": "Image HTML", "text": "HTML" },
-            { "src": "", "alt": "Image CSS", "text": "CSS" },
-            { "src": "", "alt": "Image Figma", "text": "Figma" },
-            { "src": "", "alt": "Image Git", "text": "Git" },
-            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg", "alt": "Image CSS", "text": "CSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/sass.svg", "alt": "Image SASS", "text": "SASS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/nodejs.svg", "alt": "Image Node.js", "text": "Node.js" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/vitejs.svg", "alt": "Image Vite.js", "text": "Vite.js" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/react.svg", "alt": "Image React", "text": "React" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/react-router.svg", "alt": "Image React-router", "text": "ReactRouter" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/figma.svg", "alt": "Image Figma", "text": "Figma" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg", "alt": "Image Git", "text": "Git" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg", "alt": "Image GitHub", "text": "GitHub" }
         ],
         "buttons": [
             {
-                "href": "",
+                "href": "https://github.com/Skies-Land/Projet_8_OpenClassrooms_-_Kasa",
                 "text": "Code Source",
                 "icon": "ri-github-line"
-            },
-            {
-                "href": "",
-                "text": "Voir l'aperçu",
-                "icon": "ri-timeline-view"
             }
         ]
     },
@@ -359,39 +363,47 @@
             {
                 "id": "first",
                 "title": "Thème",
-                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+                "description": "Optimisez le référencement (SEO) d'un site de photographe"
             },
             {
                 "id": "second",
                 "title": "Mission",
-                "description": ""
+                "description": "Parmi mes prospects, il y a eu Nina Carducci, une photographe dont son site web était relativement long à charger. \n\n Ma mission a été, de prendre en charge l'optimisation du référencement de son site web, en mettant l'accent sur l'amélioration de sa performance et de son accessibilité. \n\n Ma première étape a été d'identifier les problèmes de chargement et de référencement, ce qui m'a permis de proposer des recommandations précises pour améliorer la vitesse de chargement, la structure du code, ainsi que le référencement du site. J'ai ensuite mis en œuvre ces recommandations en apportant des modifications au code du site, avec pour objectif principal d'augmenter sa visibilité sur les moteurs de recherche. Pour mener à bien cette mission, j'ai utilisé des outils spécialisés tels que Lighthouse et WAVE, qui m'ont fourni des informations détaillées sur les performances et l'accessibilité du site. \n\n  Enfin, j'ai produit un rapport exhaustif illustrant les résultats avant et après les modifications apportées. Ce rapport comprenait des captures d'écran des audits réalisés, ainsi que des explications détaillées sur les changements effectués et leur impact sur le référencement et l'accessibilité du site."
             },
             {
                 "id": "third",
                 "title": "Compétences évaluées",
-                "description": ""
+                "description": "- Optimiser la performance d'un site web"
             }
         ],
         "testimonial": {
             "name": "Jonathan",
-            "description": "",
-            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+            "description": "Ce projet m'a permis de comprendre l'essentielles en matière d'optimisation du référencement (SEO) et d'accessibilité d'un site web, ce qui a un impact direct sur son trafic et sa portée. \n\n De plus, cette expérience m'a également permis d'approfondir ma capacité à analyser et à améliorer les performances d'un site, pour garantir une expérience utilisateur optimale et la satisfaction des clients. \n\n",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true",
+        "additional_info": 
+            {
+                "link_text": "En savoir plus sur => Lighthouse",
+                "link": "https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr",
+                "link2_text": "En savoir plus sur =>  WAVE",
+                "link2": "https://wave.webaim.org/"
+            }
         },
         "skills": [
-            { "src": "", "alt": "Image HTML", "text": "HTML" },
-            { "src": "", "alt": "Image CSS", "text": "CSS" },
-            { "src": "", "alt": "Image Figma", "text": "Figma" },
-            { "src": "", "alt": "Image Git", "text": "Git" },
-            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg", "alt": "Image CSS", "text": "CSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/lighthouse.svg", "alt": "Image Lighthouse", "text": "Lighthouse" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/wave.svg", "alt": "Image WAVE", "text": "WAVE" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg", "alt": "Image Git", "text": "Git" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg", "alt": "Image GitHub", "text": "GitHub" }
         ],
         "buttons": [
             {
-                "href": "",
+                "href": "https://github.com/Skies-Land/Projet_9_OpenClassrooms_-_Nina_Carducci",
                 "text": "Code Source",
                 "icon": "ri-github-line"
             },
             {
-                "href": "",
+                "href": "https://skies-land.github.io/Projet_9_OpenClassrooms_-_Nina_Carducci/",
                 "text": "Voir l'aperçu",
                 "icon": "ri-timeline-view"
             }
@@ -415,41 +427,44 @@
             {
                 "id": "first",
                 "title": "Thème",
-                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+                "description": "Débuggez le site d'une agence d'événementiel avec utilisation de Chrome DevTools pour identifier et comprendre les problèmes et bugs signalés dans le site web actuel"
             },
             {
                 "id": "second",
                 "title": "Mission",
-                "description": ""
+                "description": "L'agence 724events souhaite publier la nouvelle version de son site vitrine. Le design a été validé, et un premier développeur freelance a commencé l’intégration. Malheureusement, ce freelance a dû abandonner le projet pour raisons personnelles. Le site est fonctionnel, mais quelques bus entravent le bon usage par les visiteurs. \n\n Problème à corriger : \n - Le slider : Son but et de mettre en avant quelques-uns de leur réalisation, mais une image blanche apparaît. L'ordre de défilement des images n'est pas le bon. Les images doivent s'afficher de plus ancien au plus récente.\n - Section nos réalisations : Lorsque que l'utilisateur choisi une catégorie, il ne se passe rien. Il faut que le filtre s'applique et affiche que les éléments de la catégorie sélectionnée. Certaines cartes n'affichent pas les bonnes informations. \n - Formulaire de contact : Lorsque l'utilisateur envoie un message, il ne se passe rien. Un message de confirmation d'envoi doit s'afficher. \n - Vignette dans le footer : Permet d'afficher une dernière prestation qui se compose par une image, d'un nom et du mois. Cette élément doit être finalisé."
             },
             {
                 "id": "third",
                 "title": "Compétences évaluées",
-                "description": ""
+                "description": "- Débugger un site web grâce aux Chrome DevTools \n - Rédiger un cahier de recette pour tester un site"
             }
         ],
-        "testimonial": {
+        "testimonial": 
+        {
             "name": "Jonathan",
-            "description": "",
-            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+            "description": "Pour ce projet, j'ai commencé par examiner le code existant avec les Chrome DevTools pour identifier et comprendre les bugs signalés. Ensuite, j'ai utilisé mes compétences en JavaScript et les outils React, comme React Developer Tools, pour résoudre ces problèmes efficacement. \n\n J'ai également complété un cahier de recette détaillant tous les scénarios de test nécessaires pour vérifier le bon fonctionnement du site, incluant des tests unitaires et fonctionnels. Pour gérer le projet, j'ai utilisé Yarn comme gestionnaire de packages et Node.js pour exécuter du code JavaScript côté serveur, ce qui m'a aidé à gérer les dépendances et à exécuter des tests localement. \n \n Ce projet m'a permis de développer mes compétences en débogage et d'approfondir ma maîtrise des outils comme React Developer Tools. Grâce à ce projet, j'ai pu garantir la qualité et la fiabilité du site web, tout en me préparant à travailler sur des projets web complexe. \n \n",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true",
+            "additional_info": 
+            {
+                "link_text": "En savoir plus sur => React Developer Tools",
+                "link": "https://react.dev/learn/react-developer-tools"
+            }
         },
         "skills": [
-            { "src": "", "alt": "Image HTML", "text": "HTML" },
-            { "src": "", "alt": "Image CSS", "text": "CSS" },
-            { "src": "", "alt": "Image Figma", "text": "Figma" },
-            { "src": "", "alt": "Image Git", "text": "Git" },
-            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg", "alt": "Image CSS", "text": "CSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/javascript.svg", "alt": "Image JavaScript", "text": "JavaScript" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/yarn.svg", "alt": "Image Yarn", "text": "Yarn" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/react.svg", "alt": "Image React", "text": "React" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg", "alt": "Image Git", "text": "Git" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg", "alt": "Image GitHub", "text": "GitHub" }
         ],
         "buttons": [
             {
-                "href": "",
+                "href": "https://github.com/Skies-Land/Projet_10_OpenClassrooms_-_724_events",
                 "text": "Code Source",
                 "icon": "ri-github-line"
-            },
-            {
-                "href": "",
-                "text": "Voir l'aperçu",
-                "icon": "ri-timeline-view"
             }
         ]
     },
@@ -471,41 +486,53 @@
             {
                 "id": "first",
                 "title": "Thème",
-                "description": "Créez la page d’accueil d’une agence de voyage avec HTML & CSS"
+                "description": "Implémentez le front-end d'une application bancaire avec React et Redux pour créer une expérience utilisateur dynamique et réactive"
             },
             {
                 "id": "second",
                 "title": "Mission",
-                "description": ""
+                "description": "Dans ce projet, j'ai intégré Argent Bank en tant que développeur front-end. Argent Bank est une nouvelle banque en ligne qui souhaite percer dans le secteur bancaire. \n\n Mon rôle a été de participer au développement de la partie d'authentification des utilisateurs de l'application. L'objectif était de créer une application,\n - web complet et responsive avec React.\n - avec utilisation de Redux pour gérer le state de l'ensemble de l'application.\n - avec gestion d'appel API avec le serveur pour la récupération des données utilisateur.\n - et dotée de fonctionnalités pour l'utilisateur comme : connexion, déconnexion de session. Modification du nom d'utilisateur via un formulaire et consultation de ses données."
             },
             {
                 "id": "third",
                 "title": "Compétences évaluées",
-                "description": ""
+                "description": "- Afficher les données du back end sur l'interface via des appels API \n - Configurer des routes API pour la communication client / serveur \n - Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front"
+            },
+            {
+                "id": "fourth",
+                "title": "Information pour la démo",
+                "description": "Pour tester le projet, il vous faut récupérer mon repository et exécuter les commandes suivante : \n\n Pour installer les dépendances de ce projet\n => npm install \n\n Pour lancer la base de données en local \n => npm run dev:server \n\n Pour lancer le serveur de développement dans un autre terminal à partir du dossier front-end \n => npm run dev \n\n Voici les identifiants de teste de l'utilisateur 1 :\n - EMAIL : tony@stark.com \n - PASSWORD : password123 \n\n Voici les identifiants de teste de l'utilisateur 2 :\n - EMAIL : steve@rogers.com \n - PASSWORD : password456"
             }
         ],
         "testimonial": {
             "name": "Jonathan",
-            "description": "",
-            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+            "description": "Dans ce projet, j'ai travaillé sur le développement front-end d'une application bancaire en utilisant React et Redux. Mon principal objectif était d'intégrer le front-end avec le back-end via des appels API, pour assurer une communication fluide entre le client et le serveur. \n\n Pour commencer, j'ai installé le back-end de l'application et testé la route de connexion pour m'assurer de son bon fonctionnement. Ensuite, j'ai créé l'application React que j'ai initialisé avec Vite.js, intégré les différentes pages HTML/CSS de la maquette avec React et géré les routes avec React Router. \n\n J'ai mis en place un state global avec Redux pour gérer les données de l'application, notamment la connexion utilisateur. J'ai assuré que la gestion de la connexion utilisateur était fonctionnelle avec le store de Redux. Par la suite, j'ai sécurisé la connexion de l'utilisateur et implémenté une fonctionnalité clé de l'application : la modification du nom d'utilisateur via un formulaire. J'ai veillé à ce que les modifications persistent et soient cohérentes sur l'ensemble de la page. \n\n Grâce à ce projet, j'ai renforcé mes connaisances avec React et fait une première utilisation avec Redux. Cette expérience m'a permis de comprendre l'importance d'une communication fluide entre le front-end et le back-end, tout en maintenant un état global cohérent à travers l'application. \n\n",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true",
+        "additional_info": 
+            {
+                "link_text": "En savoir plus sur => Vite.js",
+                "link": "https://vitejs.dev/"
+            }
         },
         "skills": [
-            { "src": "", "alt": "Image HTML", "text": "HTML" },
-            { "src": "", "alt": "Image CSS", "text": "CSS" },
-            { "src": "", "alt": "Image Figma", "text": "Figma" },
-            { "src": "", "alt": "Image Git", "text": "Git" },
-            { "src": "", "alt": "Image GitHub", "text": "GitHub" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/html.svg", "alt": "Image HTML", "text": "HTML" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/css.svg", "alt": "Image CSS", "text": "CSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/javascript.svg", "alt": "Image JavaScript", "text": "JavaScript" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/sass.svg", "alt": "Image SASS", "text": "SASS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/nodejs.svg", "alt": "Image Node.js", "text": "Node.js" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/react.svg", "alt": "Image React", "text": "React" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/react-router.svg", "alt": "Image React-router", "text": "ReactRouter" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/redux.svg", "alt": "Image Redux", "text": "Redux" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/vitejs.svg", "alt": "Image Vite.js", "text": "Vite.js" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/swagger.svg", "alt": "Image Swagger", "text": "Swagger" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/git.svg", "alt": "Image Git", "text": "Git" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/github.svg", "alt": "Image GitHub", "text": "GitHub" }
         ],
         "buttons": [
             {
-                "href": "",
+                "href": "https://github.com/Skies-Land/Projet_11_OpenClassrooms_-_ArgentBank",
                 "text": "Code Source",
                 "icon": "ri-github-line"
-            },
-            {
-                "href": "",
-                "text": "Voir l'aperçu",
-                "icon": "ri-timeline-view"
             }
         ]
     }
