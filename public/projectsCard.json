@@ -291,7 +291,7 @@
         "description": "Création d'une application web de location immobilière avec React & React-router.",
         "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/main/assets/image/projet/kasa/kasa-0.webp",
         "githubLink": "https://github.com/Skies-Land/Projet_8_OpenClassrooms_-_Kasa",
-        "previewLink": "",
+        "previewLink": "https://projet-8-openclassrooms-kasa.netlify.app/",
         "slides": [
             { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/kasa/kasa-1.jpg?raw=true", "alt": "Image 1 du projet Kasa" },
             { "src": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/projet/kasa/kasa-2.jpg?raw=true", "alt": "Image 2 du projet Kasa" },
@@ -342,6 +342,11 @@
                 "href": "https://github.com/Skies-Land/Projet_8_OpenClassrooms_-_Kasa",
                 "text": "Code Source",
                 "icon": "ri-github-line"
+            },
+            {
+                "href": "https://projet-8-openclassrooms-kasa.netlify.app/",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
             }
         ]
     },

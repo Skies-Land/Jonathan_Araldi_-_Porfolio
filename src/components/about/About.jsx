@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import aboutData from "../../../public/about.json";
 import TiltEffect from "../../features/tilt-effect/TiltEffect";
-import DocCV from "../../assets/pdf/CV_Jonathan_Araldi_-_Développeur_Front-end_Junior.pdf";
+
 
 const About = () => {
   const [data, setData] = useState(null);
@@ -69,7 +69,7 @@ const About = () => {
               <a href="#contact" className="button">
                 <i className="ri-send-plane-line"></i> Contactez-moi
               </a>
-              <a href={DocCV} download className="button">
+              <a href="https://drive.google.com/file/d/14aSYRb1EWh0QjBZBA6bm0OdGTFS4Kpa9/view?usp=drive_link" target="_blank" className="button" rel="noopener noreferrer">
                 <i className="ri-download-line"></i> Mon CV
               </a>
               <a
