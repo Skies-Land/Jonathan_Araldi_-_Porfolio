@@ -236,6 +236,7 @@
     .collapse__link {
         color: $first-color-dark;
     }
+    /*=== TESTIMONIAL ===*/
     .testimonial__card {
         background-color: $container-color-dark;
         border-inline: 8px solid $first-color-dark;
@@ -286,8 +287,8 @@
     .contact__description-2 {
         color: $title-color-dark;
     }
-    .contact__mail, .contact__input{    
-        background-color: $container-color-dark;
+    .contact__mail, .contact__input{ 
+        background-color: hsl(0, 0%, 4%);
     }
     .contact__label {
         background-color: $black-color-dark;
@@ -332,6 +333,3 @@
         background-color: $black-color-dark;
     }
 }
-
-
-

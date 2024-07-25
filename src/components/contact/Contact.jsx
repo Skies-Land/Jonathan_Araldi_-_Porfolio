@@ -1,6 +1,6 @@
 import React from 'react';
 import arrowImage from "../../assets/image/curved-arrow.svg";
-
+import ContactForm from '../../features/contact-form/ContactForm';
 
 const Contact = () => {
     return (
@@ -30,35 +30,7 @@ const Contact = () => {
                         Envoyez-moi un message
                     </h2>
 
-                    <form className="contact__form" id="contact-form">
-                        <div className="contact__group">
-                            <div className="contact__box">
-                                <input type="text" name="user_name" className="contact__input" id="name" required placeholder="Nom" />
-                                <label htmlFor="name" className="contact__label">Nom</label>
-                            </div>
-
-                            <div className="contact__box">
-                                <input type="email" name="user_email" className="contact__input" id="email" required placeholder="Votre E-mail" />
-                                <label htmlFor="email" className="contact__label">E-mail</label>
-                            </div>
-                        </div>
-
-                        <div className="contact__box">
-                            <input type="text" name="user_subject" className="contact__input" id="subject" required placeholder="Sujet" />
-                            <label htmlFor="subject" className="contact__label">Sujet</label>
-                        </div>
-
-                        <div className="contact__box contact__area">
-                            <textarea name="user_message" id="message" className="contact__input" required placeholder="Message"></textarea>
-                            <label htmlFor="message" className="contact__label">Message</label>
-                        </div>
-
-                        <p className="contact__message" id="contact-message"></p>
-
-                        <button type="submit" className="contact__button button">
-                            <i className="ri-send-plane-line"></i> Envoie du message
-                        </button>
-                    </form>
+                    <ContactForm />
                 </div>
 
                 <div className="contact__social">
