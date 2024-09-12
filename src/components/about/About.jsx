@@ -69,7 +69,7 @@ const About = () => {
               <a href="#contact" className="button">
                 <i className="ri-send-plane-line"></i> Contactez-moi
               </a>
-              <a href="https://drive.google.com/file/d/14aSYRb1EWh0QjBZBA6bm0OdGTFS4Kpa9/view?usp=drive_link" target="_blank" className="button" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1_mm2orXhbIN8HJrZArsj4Vk6c8VBCuwY/view?usp=sharing" target="_blank" className="button" rel="noopener noreferrer">
                 <i className="ri-download-line"></i> Mon CV
               </a>
               <a

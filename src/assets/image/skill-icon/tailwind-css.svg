@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 113" width="150" height="113">
+	<title>react-svg</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m0 0h150v112.5h-150z"/>
+		</clipPath>
+		<image width="802" height="480" id="img1" href="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjE0OTkiIHZpZXdCb3g9Ii4xNSAuMTMgNzk5LjcgNDc5LjY5IiB3aWR0aD0iMjUwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtNDAwIC4xM2MtMTA2LjYzIDAtMTczLjI3IDUzLjMtMTk5LjkzIDE1OS44OSAzOS45OS01My4zIDg2LjY0LTczLjI4IDEzOS45NS01OS45NiAzMC40MiA3LjYgNTIuMTYgMjkuNjcgNzYuMjMgNTQuMDkgMzkuMiAzOS43OCA4NC41NyA4NS44MiAxODMuNjggODUuODIgMTA2LjYyIDAgMTczLjI3LTUzLjMgMTk5LjkyLTE1OS45LTM5Ljk4IDUzLjMtODYuNjMgNzMuMjktMTM5Ljk1IDU5Ljk3LTMwLjQxLTcuNi01Mi4xNS0yOS42Ny03Ni4yMi01NC4wOS0zOS4yLTM5Ljc4LTg0LjU4LTg1LjgyLTE4My42OC04NS44MnptLTE5OS45MyAyMzkuODRjLTEwNi42MiAwLTE3My4yNyA1My4zLTE5OS45MiAxNTkuOSAzOS45OC01My4zIDg2LjYzLTczLjI5IDEzOS45NS01OS45NiAzMC40MSA3LjYxIDUyLjE1IDI5LjY3IDc2LjIyIDU0LjA4IDM5LjIgMzkuNzggODQuNTggODUuODMgMTgzLjY4IDg1LjgzIDEwNi42MyAwIDE3My4yNy01My4zIDE5OS45My0xNTkuOS0zOS45OSA1My4zLTg2LjY0IDczLjI5LTEzOS45NSA1OS45Ni0zMC40Mi03LjU5LTUyLjE2LTI5LjY3LTc2LjIzLTU0LjA4LTM5LjItMzkuNzgtODQuNTctODUuODMtMTgzLjY4LTg1LjgzeiIgZmlsbD0iIzA2YjZkNCIvPjwvc3ZnPg=="/>
+	</defs>
+	<style>
+	</style>
+	<g id="Clip-Path: Clip-Path" clip-path="url(#cp1)">
+		<g id="Clip-Path">
+			<use id="tailwind-css-2" href="#img1" transform="matrix(.187,0,0,.187,0,12)"/>
+		</g>
+	</g>
+</svg>

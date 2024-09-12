@@ -23,14 +23,19 @@
             "alt": "Image JavaScript"
         },
         {
+            "name": "TypeScript",
+            "image": "",
+            "alt": "Image TypeScript"
+        },
+        {
             "name": "SASS",
             "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/sass.svg",
             "alt": "Image SASS"
         },
         {
-            "name": "Node.js",
-            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/nodejs.svg",
-            "alt": "Image Node.js"
+            "name": "Tailwind CSS",
+            "image": "",
+            "alt": "Image Tailwind CSS"
         },
         {
             "name": "React",
@@ -41,6 +46,16 @@
             "name": "Redux",
             "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/redux.svg",
             "alt": "Image Redux"
+        },
+        {
+            "name": "Vite.js",
+            "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/05a316290426e3e4c628e53c01ffac6475f7956a/assets/image/skill-icon/vitejs.svg",
+            "alt": "Image Vite.js"
+        },
+        {
+            "name": "Next.js",
+            "image": "",
+            "alt": "Image Next.js"
         },
         {
             "name": "Git",

@@ -540,5 +540,106 @@
                 "icon": "ri-github-line"
             }
         ]
+    },
+    {
+        "id": "burger house",
+        "title": "Burger House",
+        "title2": "Projet Burger House",
+        "subtitle": "Projet Post-formation",
+        "description": "Landing page de restaurant de burgers développé avec React & Tailwind CSS.",
+        "image": "",
+        "githubLink": "https://github.com/Skies-Land/burger-house/tree/master",
+        "previewLink": "https://burger-house-c0b43.web.app/",
+        "slides": [
+            { "src": "", "alt": "Image 1 du projet Burger House" },
+            { "src": "", "alt": "Image 2 du projet Burger House" },
+            { "src": "", "alt": "Image 3 du projet Burger House" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Création d'une landing page de restaurant de burgers"
+            },
+            {
+                "id": "second",
+                "title": "Description",
+                "description": "- Projet initialisé avec Vite.js \n - Développé avec React et Tailwind CSS \n - Préconfiguration de Tailwind dans tailwind.config pour disposer d'un large choix de classe préétablie \n - Utilisation de switch case dans les composants Button, Heading et HeadingTitle, me permettant de gérer les rendus de manière structurée et lisible, afin de centraliser la logique de décision dans un seul endroit. \n - Intégration du composant react-alice-carousel pour l'ajout d'un carrousel animée \n - Adaptation des différentes sections de la landing page à tous type d'écran avec le Responsive Design de Tailwind CSS \n - Déploiement de la page sur Firebase Hosting pour la rendre accessible en ligne."
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "Pour ce projet, j'ai créé une landing page pour un restaurant de burgers fictif, Burger House en suivant un cours sur YouTube. L'objectif était d'apprendre de bonne pratique et de concevoir une page d'accueil attrayante avec React et de me familiariser avec Tailwind CSS. \n\n J'ai déployé la page sur Firebase Hosting pour la rendre accessible en ligne et j'ai testé son fonctionnement sur différents appareils et navigateurs pour m'assurer qu'elle était optimale pour tous les utilisateurs",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image Vite.js", "text": "Vite.js" },
+            { "src": "", "alt": "Image React", "text": "React" },
+            { "src": "", "alt": "Image Tailwind CSS", "text": "Tailwind CSS" },
+            { "src": "", "alt": "Image Firebase", "text": "Firebase" }
+        ],
+        "buttons": [
+            {
+                "href": "https://github.com/Skies-Land/burger-house/tree/master",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "https://burger-house-c0b43.web.app/",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
+    },
+    {
+        "id": "coders monkeys",
+        "title": "Coders Monkeys",
+        "title2": "Projet Coders Monkeys",
+        "subtitle": "Projet Post-formation",
+        "description": "Application web qui permet aux développeurs front-end de partager leurs projets entre eux, de s'inspirer et de s'entraider.",
+        "image": "",
+        "githubLink": "https://github.com/Skies-Land/coders-monkeys",
+        "previewLink": "https://coders-monkeys-42518.web.app/",
+        "slides": [
+            { "src": "", "alt": "Image 1 du projet Coders Monkeys" },
+            { "src": "", "alt": "Image 2 du projet Coders Monkeys" },
+            { "src": "", "alt": "Image 3 du projet Coders Monkeys" }
+        ],
+        "collapses": [
+            {
+                "id": "first",
+                "title": "Thème",
+                "description": "Création d'une application web qui permet aux développeurs front-end de partager leurs projets entre eux, de s'inspirer et de s'entraider"
+            },
+            {
+                "id": "second",
+                "title": "Description",
+                "description": "Coders Monkey est une application web développée avec Next.js, React, TypeScript et Tailwind CSS, et déployée sur Firebase. \n\n Le projet inclut un design système personnalisé, une gestion optimisée des classes CSS, et des composants réutilisables pour les formulaires et l'interface utilisateur (icônes, logo, avatar). \n Le front-end est structuré via un layout modulaire et des composants spécifiques pour la navigation, les pages d'authentification et la landing page. L'application permet la connexion, l'inscription et la récupération de mot de passe, tout en offrant une expérience utilisateur fluide et interactive."
+            }
+        ],
+        "testimonial": {
+            "name": "Jonathan",
+            "description": "Dans ce projet, j'ai progressé étape par étape dans ma maîtrise de React en suivant un cours sur YouTube. \n\n J'ai utilisé différentes technologies telles que Next.js, Tailwind CSS, Typescript, Figma, React Hook Form, et bien d'autres encore. En codant de manière pratique, j'ai appliqué les bonnes pratiques enseigner dans le cours afin de construire une architecture solide pour l'application. À la fin de ce processus, j'ai été capable de créer et de déployer une application web complète. \n\n J'ai travaillé sur une application appelée Coders Monkey, qui permet aux développeurs front-end de partager leurs projets, de s'inspirer mutuellement et de s'entraider. Dans ce projet, j'ai conçu un design système, piloté une base de données en temps réel, géré l'authentification, et développé plusieurs fonctionnalités comme l'envoi de messages privés et les notifications utilisateurs.",
+            "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
+        },
+        "skills": [
+            { "src": "", "alt": "Image Next.js", "text": "Next.js" },
+            { "src": "", "alt": "Image React", "text": "React" },
+            { "src": "", "alt": "Image TypeScript", "text": "TypeScript" },
+            { "src": "", "alt": "Image Tailwind CSS", "text": "Tailwind CSS" },
+            { "src": "", "alt": "Image Firebase", "text": "Firebase" }
+                ],
+        "buttons": [
+            {
+                "href": "https://github.com/Skies-Land/coders-monkeys",
+                "text": "Code Source",
+                "icon": "ri-github-line"
+            },
+            {
+                "href": "https://coders-monkeys-42518.web.app/",
+                "text": "Voir l'aperçu",
+                "icon": "ri-timeline-view"
+            }
+        ]
     }
 ]
