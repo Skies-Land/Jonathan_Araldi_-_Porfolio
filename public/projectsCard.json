@@ -547,13 +547,13 @@
         "title2": "Projet Burger House",
         "subtitle": "Projet Post-formation",
         "description": "Landing page de restaurant de burgers développé avec React & Tailwind CSS.",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/burger-house/burger-house-0.webp",
         "githubLink": "https://github.com/Skies-Land/burger-house/tree/master",
         "previewLink": "https://burger-house-c0b43.web.app/",
         "slides": [
-            { "src": "", "alt": "Image 1 du projet Burger House" },
-            { "src": "", "alt": "Image 2 du projet Burger House" },
-            { "src": "", "alt": "Image 3 du projet Burger House" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/burger-house/burger-house-1.jpg", "alt": "Image 1 du projet Burger House" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/burger-house/burger-house-2.jpg", "alt": "Image 2 du projet Burger House" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/burger-house/burger-house-3.jpg", "alt": "Image 3 du projet Burger House" }
         ],
         "collapses": [
             {
@@ -573,10 +573,10 @@
             "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
         },
         "skills": [
-            { "src": "", "alt": "Image Vite.js", "text": "Vite.js" },
-            { "src": "", "alt": "Image React", "text": "React" },
-            { "src": "", "alt": "Image Tailwind CSS", "text": "Tailwind CSS" },
-            { "src": "", "alt": "Image Firebase", "text": "Firebase" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/vitejs.svg", "alt": "Image Vite.js", "text": "Vite.js" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/react.svg", "alt": "Image React", "text": "React" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/tailwind-css.svg", "alt": "Image Tailwind CSS", "text": "TailwindCSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/firebase.svg", "alt": "Image Firebase", "text": "Firebase" }
         ],
         "buttons": [
             {
@@ -597,13 +597,13 @@
         "title2": "Projet Coders Monkeys",
         "subtitle": "Projet Post-formation",
         "description": "Application web qui permet aux développeurs front-end de partager leurs projets entre eux, de s'inspirer et de s'entraider.",
-        "image": "",
+        "image": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/coders-monkers/coders-monkeys-0.webp",
         "githubLink": "https://github.com/Skies-Land/coders-monkeys",
         "previewLink": "https://coders-monkeys-42518.web.app/",
         "slides": [
-            { "src": "", "alt": "Image 1 du projet Coders Monkeys" },
-            { "src": "", "alt": "Image 2 du projet Coders Monkeys" },
-            { "src": "", "alt": "Image 3 du projet Coders Monkeys" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/coders-monkers/coders-monkeys-1.jpg", "alt": "Image 1 du projet Coders Monkeys" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/coders-monkers/coders-monkeys-2.jpg", "alt": "Image 2 du projet Coders Monkeys" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/React-version/src/assets/image/projet/coders-monkers/coders-monkeys-3.jpg", "alt": "Image 3 du projet Coders Monkeys" }
         ],
         "collapses": [
             {
@@ -623,11 +623,11 @@
             "image": "https://github.com/Skies-Land/Jonathan_Araldi_-_Porfolio/blob/main/assets/image/profil/testimonial-profil.jpg?raw=true"
         },
         "skills": [
-            { "src": "", "alt": "Image Next.js", "text": "Next.js" },
-            { "src": "", "alt": "Image React", "text": "React" },
-            { "src": "", "alt": "Image TypeScript", "text": "TypeScript" },
-            { "src": "", "alt": "Image Tailwind CSS", "text": "Tailwind CSS" },
-            { "src": "", "alt": "Image Firebase", "text": "Firebase" }
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/next-js.svg", "alt": "Image Next.js", "text": "Next.js" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/react.svg", "alt": "Image React", "text": "React" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/typescript.svg", "alt": "Image TypeScript", "text": "TypeScript" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/tailwind-css.svg", "alt": "Image Tailwind CSS", "text": "TailwindCSS" },
+            { "src": "https://raw.githubusercontent.com/Skies-Land/Jonathan_Araldi_-_Porfolio/b42d32a21c1ac26ed3b559da9991b770d17d8b61/src/assets/image/skill-icon/firebase.svg", "alt": "Image Firebase", "text": "Firebase" }
                 ],
         "buttons": [
             {
