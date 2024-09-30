@@ -49,7 +49,7 @@ const About = () => {
           <div className="about__data grid">
             <div className="about__info grid">
               <p className="about__description">
-                Recement diplôme d'un Bac+2 <b>d'Intégrateur Web</b> chez
+                Récemment diplôme d'un Bac+2 <b>d'Intégrateur Web</b> chez
                 <a
                   href="https://openclassrooms.com/fr/"
                   target="_blank"
@@ -60,7 +60,7 @@ const About = () => {
                 </a>
                 . Passionné par les nouvelles technologies, j'aspire à trouver
                 une carrière dans le domaine du <b>développement web</b> qui
-                correspondrais à mes rêves en agissant avec inventivité,
+                correspondrait à mes rêves en agissant avec inventivité,
                 imagination et conviction.
               </p>
             </div>
